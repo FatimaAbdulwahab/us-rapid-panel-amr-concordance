@@ -53,6 +53,8 @@ def authors(m):
         return names[0] + " et al."
     if len(names) == 1:
         return names[0]
+    if len(names) == 2:
+        return names[0] + " and " + names[1]
     return ", ".join(names[:-1]) + ", and " + names[-1]
 
 
@@ -77,8 +79,8 @@ def fmt(key):
     vol = m.get("volume", "")
     iss = m.get("issue", "")
     pg = m.get("page") or m.get("article-number") or ""
-    loc = (f"{vol}" + (f"({iss})" if iss else "") + (f":{pg.replace('-', '--')}" if pg else "")) if vol else (
-        f"{pg}" if pg else "")
+    loc = (f"{vol}" + (f"({iss})" if iss else "") + (f":{re.sub(r'^(\\d+)-(\\d+)$', r'\\1--\\2', pg)}" if pg else "")) if vol else (
+        re.sub(r'^(\d+)-(\d+)$', r'\1--\2', pg) if pg else "")
     doi = m["DOI"]
     au = authors(m)
     return (f"{au}{'' if au.endswith('.') else '.'} {title}. \\textit{{{jr}}}, {loc}, {year(m)}. "

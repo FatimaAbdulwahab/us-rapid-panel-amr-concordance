@@ -10,3 +10,4 @@ paper/manuscript/*.out
 paper/manuscript/*.fls
 paper/manuscript/*.fdb_latexmk
 paper/manuscript/build.log
+paper/manuscript/docsec/
