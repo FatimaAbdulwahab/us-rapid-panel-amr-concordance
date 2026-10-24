@@ -4,3 +4,9 @@ __pycache__/
 *.token
 .DS_Store
 release/
+paper/manuscript/*.aux
+paper/manuscript/*.log
+paper/manuscript/*.out
+paper/manuscript/*.fls
+paper/manuscript/*.fdb_latexmk
+paper/manuscript/build.log

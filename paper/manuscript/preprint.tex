@@ -1,0 +1,765 @@
+% Preprint: U.S. Rapid Panel Resistance Marker Concordance Benchmark
+% Every result is read from numbers.tex and tables/*.tex, written by build_assets.py
+% from the verified pipeline outputs. Do not type numbers into this file.
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[letterpaper,top=0.85in,bottom=0.9in,left=0.72in,right=0.72in,columnsep=0.26in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs,multirow,array,tabularx}
+\usepackage{xcolor}
+\usepackage[labelsep=colon,font=small,justification=centerlast]{caption}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=red!75!black,citecolor=blue!70!black,urlcolor=blue!70!black]{hyperref}
+\usepackage{orcidlink}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{xurl}
+
+% --- APS-like look ---------------------------------------------------------
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}}
+\titleformat{\section}{\centering\normalfont\small\bfseries}{\thesection.}{0.6em}{\MakeUppercase}
+\titlespacing*{\section}{0pt}{1.6ex plus .5ex}{1.0ex}
+\titleformat{\subsection}{\centering\normalfont\small\bfseries}{\thesubsection.}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{1.3ex plus .4ex}{0.8ex}
+\titleformat{\subsubsection}[runin]{\normalfont\small\itshape}{\thesubsubsection.}{0.4em}{}[.]
+\renewcommand{\figurename}{FIG.}
+\renewcommand{\tablename}{TABLE}
+\renewcommand{\thetable}{\Roman{table}}
+\captionsetup[table]{position=top,skip=4pt}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.08}
+\setlength{\tabcolsep}{4pt}
+\pagestyle{plain}
+\makeatletter
+\renewcommand\@biblabel[1]{[#1]}
+\makeatother
+
+% --- numbers from the pipeline -----------------------------------------------
+\input{numbers.tex}
+\makeatletter
+\newcommand{\nv}[1]{\ifcsname nv@#1\endcsname\csname nv@#1\endcsname\else
+  \PackageError{numbers}{Unknown number key: #1}{Run build_assets.py}\fi}
+\makeatother
+\newcommand{\g}[1]{\textit{#1}}  % gene names in italics
+\newcommand{\sau}{\textit{S.~aureus}}
+\newcommand{\eco}{\textit{E.~coli}}
+\newcommand{\kpn}{\textit{K.~pneumoniae}}
+
+\begin{document}
+
+\twocolumn[
+\begin{@twocolumnfalse}
+\begin{center}
+{\large\bfseries How well do rapid blood culture panel resistance targets predict laboratory susceptibility?\par
+An open, gene-by-gene concordance benchmark of U.S. clinical isolates in NCBI Pathogen Detection\par}
+\vspace{10pt}
+{\normalsize Fatima Abdulwahab\,\orcidlink{0009-0008-2298-8386}\,\textsuperscript{1,*}\par}
+\vspace{4pt}
+{\small\itshape \textsuperscript{1}Independent Researcher, Dallas, Texas, USA\par}
+\vspace{6pt}
+\end{center}
+\begin{minipage}{0.84\textwidth}\centering
+\begin{minipage}{0.98\textwidth}
+\small
+Rapid blood culture identification panels report resistance genes (\g{mecA}/\g{mecC}, \g{vanA}/\g{vanB}, KPC, NDM,
+OXA-48-like, VIM, IMP and CTX-M) hours to days before growth-based antimicrobial susceptibility testing (AST) is
+complete, and laboratories and prescribers act on that early result. We built an open, versioned, isolate-level benchmark
+that measures how often each panel target predicts the AST result that follows, using public data only. From
+\nv{n-biosamples-with-antibiogram-in-scope-organisms} NCBI BioSample records carrying a submitted antibiogram for
+\textit{Staphylococcus aureus}, \textit{Enterococcus faecalis}, \textit{Enterococcus faecium} and the Enterobacterales,
+we joined AMRFinderPlus gene calls from NCBI Pathogen Detection, kept U.S. human clinical isolates, mapped genes to panel
+targets through NCBI's Reference Gene Hierarchy, and reinterpreted \nv{n-isolate-drug-reinterpreted} isolate-drug MICs and
+zone diameters against CLSI M100 (35th edition) breakpoints. The benchmark contains \nv{n-benchmark-isolates} isolates
+(\nv{n-blood-or-sterile} from blood or other sterile sites). \g{mecA} predicted oxacillin or cefoxitin resistance in
+\nv{meca-ppv-frac} \sau{} (positive predictive value, PPV, \nv{meca-ppv}; 95\% CI \nv{meca-ppv-ci}), and its absence
+predicted susceptibility in \nv{mecamecc-npv-frac} (NPV \nv{mecamecc-npv}). Any panel carbapenemase predicted resistance to
+at least one carbapenem in \nv{carb-any-ppv-frac} Enterobacterales (PPV \nv{carb-any-ppv}) but to meropenem in only
+\nv{carb-mero-ppv-frac} (PPV \nv{carb-mero-ppv}), with OXA-48-like and IMP enzymes most often leaving meropenem
+susceptible. CTX-M predicted ceftriaxone resistance with PPV \nv{ctx-cro-ppv} across Enterobacterales, but a CTX-M-negative
+result was a weak predictor of susceptibility outside \eco{} (NPV \nv{ctx-cro-ec-npv} in \eco{}, \nv{ctx-cro-kp-npv} in
+\kpn{} complex, and below 10\% in chromosomal AmpC species). In a secondary analysis, CTX-M-1-group enzymes conferred
+ceftazidime resistance in \nv{sub-ecg1-ceftaz-pct} of \eco{} versus \nv{sub-ecg9-ceftaz-pct} for CTX-M-9-group enzymes.
+\g{vanA} predicted vancomycin resistance in \nv{van-ppv-frac} enterococci; no \g{vanB} or \g{mecC} was present.
+All \nv{n-discordance-cases} discordant isolate-target pairs are released with a rule-based likely cause; most
+gene-negative resistant isolates carried a non-panel ESBL or AmpC, a panel carbapenemase, or belonged to a chromosomal AmpC
+species. The data, gene-to-target crosswalk, discordance collection, code and a public lookup page are openly released for
+reuse and annual update.\par\vspace{4pt}\noindent
+\textbf{Keywords:} antimicrobial resistance, rapid diagnostics, blood culture identification panel, AMRFinderPlus,
+genotype--phenotype concordance, carbapenemase, CTX-M, \g{mecA}, \g{vanA}
+\end{minipage}
+\end{minipage}
+\vspace{14pt}
+\end{@twocolumnfalse}
+]
+{\renewcommand{\thefootnote}{\fnsymbol{footnote}}\footnotetext[1]{\href{mailto:abdulwahabfatima43@gmail.com}{abdulwahabfatima43@gmail.com}}}
+
+% ============================================================================
+\section{Introduction}
+
+Antimicrobial resistance (AMR) is a leading cause of preventable death. The U.S. Centers for Disease Control and
+Prevention (CDC) estimates more than 2.8 million antimicrobial-resistant infections and more than 35,000 deaths in the
+United States each year \cite{cdc2019}, and a global analysis attributed 1.14 million deaths in 2021 directly to bacterial
+AMR \cite{gbd2024}. For bloodstream infection in particular, the interval between a positive blood culture and an
+optimized antimicrobial regimen matters: prescribers must choose therapy before the organism's susceptibility is known.
+Rapid diagnostics are named as a goal of the U.S. National Action Plan for Combating Antibiotic-Resistant Bacteria,
+2020--2025 \cite{carb2020}, and molecular rapid diagnostic tests on positive blood cultures have been associated with lower
+mortality and shorter time to effective therapy, especially when paired with antimicrobial stewardship \cite{timbrook2017,banerjee2021}.
+
+Multiplex blood culture identification panels such as the BioFire FilmArray Blood Culture Identification 2 (BCID2) panel
+and the Verigene Gram-positive and Gram-negative blood culture tests identify the organism and a small set of resistance
+genes within hours of blood culture positivity \cite{bcid2_2022,verigene2015}. The genes they report were
+chosen because each is tightly linked to a treatment decision: \g{mecA} and \g{mecC} for methicillin resistance in
+\sau{}; \g{vanA} and \g{vanB} for vancomycin resistance in enterococci; the carbapenemases KPC, NDM, OXA-48-like, VIM and
+IMP for carbapenem resistance in Enterobacterales; and CTX-M, the dominant extended-spectrum $\beta$-lactamase (ESBL)
+family worldwide \cite{bevan2017,bush2020}, for resistance to third-generation cephalosporins. Laboratories translate these
+results into reports and comments, and stewardship programs translate them into escalation and de-escalation rules,
+before the AST result arrives.
+
+That translation rests on an assumption that is rarely measured directly: that the presence of the gene predicts
+resistance, and its absence predicts susceptibility, for the organisms and drugs that matter. Panel evaluations have mostly
+asked whether the panel detects the gene that a reference molecular method detects, or whether the panel identifies the
+organism correctly \cite{bcid2_2022,verigene2015}. The question that a clinician faces is different. A positive KPC result
+is acted on as ``carbapenem resistant''; a negative CTX-M result is often read as ``no ESBL''. Both readings depend on
+biology the panel does not see: other $\beta$-lactamases, chromosomal AmpC enzymes \cite{jacoby2009}, porin loss
+\cite{tamma2017,pitout2015}, weakly hydrolyzing enzymes such as OXA-48 \cite{poirel2012}, or silent resistance genes
+\cite{szakacs2014,vanA2025}. The answer also differs by organism, which panels report together with the resistance target.
+
+Whole-genome sequencing offers a way to study this at scale. Genotype--phenotype concordance of genome-based resistance
+prediction has been studied extensively for individual species and collections \cite{stoesser2013,gordon2014,feldgarden2019,su2019},
+and the EUCAST subcommittee on whole-genome sequencing reviewed the evidence and its limits \cite{ellington2017}. NCBI
+Pathogen Detection now runs AMRFinderPlus \cite{feldgarden2021} on every bacterial genome submitted to NCBI and links
+submitted laboratory antibiograms to the same isolates \cite{ncbi2025,ncbipd}. Together these resources make it possible to
+ask the panel question directly, for U.S. isolates, without new laboratory work, and to repeat the measurement as new
+genomes are deposited. To our knowledge no openly maintained, U.S.-focused table currently reports this figure gene by
+gene, drug by drug and organism by organism.
+
+Here we describe the \emph{U.S. Rapid Panel Resistance Marker Concordance Benchmark}, version 1.0.0 \cite{thiswork}. The
+benchmark (i) pairs AMRFinderPlus calls with submitted susceptibility results for U.S. human clinical isolates; (ii)
+reinterprets every available MIC and zone diameter against one breakpoint edition; (iii) maps each gene to the panel target
+it represents through a released crosswalk; (iv) reports PPV, negative predictive value (NPV), sensitivity and specificity
+with confidence intervals for every target, drug and organism; and (v) releases every discordant isolate with a documented,
+rule-based likely cause. Section~\ref{sec:methods} describes the data and methods, Sec.~\ref{sec:results} the results,
+Sec.~\ref{sec:discussion} their interpretation and limits, and Sec.~\ref{sec:conclusions} our conclusions.
+
+% ============================================================================
+\section{Materials and methods}\label{sec:methods}
+
+\subsection{Data sources}
+
+All inputs are public NCBI resources released without restrictions on use. Files were downloaded on \nv{access-date};
+every file was logged with its source URL, access date, size and SHA-256 fingerprint, both for the full source stream and
+for the file as committed to the repository.
+
+\subsubsection{Susceptibility results}
+Laboratories that submit a bacterial genome to NCBI can attach an antibiogram to the BioSample record: one row per drug
+with the submitted resistance phenotype, a measurement sign (for example $\le$, $=$, $>$), the measured value and units,
+the laboratory typing method and platform, and the testing standard. We retrieved every BioSample record matching
+\texttt{antibiogram[filter]} for \textit{Staphylococcus aureus}, \textit{Enterococcus faecalis}, \textit{Enterococcus
+faecium} or the order Enterobacterales through the NCBI E-utilities \cite{eutils}, yielding
+\nv{n-biosamples-with-antibiogram-in-scope-organisms} records. Records were parsed into one row per isolate and drug
+without interpretation.
+
+\subsubsection{Gene calls}
+NCBI Pathogen Detection publishes, for each organism group, an isolate table with the AMRFinderPlus genotype of every
+genome (\texttt{latest\_snps/AMR/*.amr.metadata.tsv}) \cite{ncbipd}. We streamed these tables for \sau{}, \textit{E.
+faecalis}, \textit{E.~faecium} and every Enterobacterales group available (\textit{Escherichia coli}/\textit{Shigella},
+\textit{Klebsiella}, \textit{Klebsiella oxytoca}, 16 \textit{Enterobacter} groups, \textit{Citrobacter}, \textit{Serratia},
+\textit{Morganella}, \textit{Providencia}, \textit{Kluyvera}, \textit{Pluralibacter}, \textit{Cronobacter} and
+\textit{Salmonella}), keeping rows whose BioSample carried an antibiogram. Isolates in this release were analyzed by NCBI
+with AMRFinderPlus versions \nv{amrfinder-versions} and \nv{n-refgene-versions} database versions (\nv{refgene-versions}).
+
+\subsubsection{Reference gene hierarchy}
+The AMRFinderPlus Reference Gene Hierarchy, Reference Gene Catalog and point-mutation table (database \nv{refgene-db})
+were downloaded to map genes to panel targets and to drug classes \cite{feldgarden2021}.
+
+\subsection{Cohort definition}
+
+Isolates were linked by BioSample accession; when a BioSample had more than one genome, the most recently created analysis
+target was kept. An isolate was classified as U.S. if its \texttt{geo\_loc\_name} began with ``USA''. It was classified as
+human clinical if NCBI's epidemiological type was ``clinical'' and the host was human, or the host was blank and the
+isolation source named a human specimen and no food, animal or environmental source. Submitted locations mixed state names,
+postal codes, cities and misspellings; these were resolved to states with a fixed table. Two laboratory reference strains
+submitted with clinical metadata (\nv{refstrains}) were removed by name. The benchmark contains isolates with at least one
+interpretable result for a drug paired with a panel target in their organism (Table~\ref{tab:pairs}). Specimen categories
+(blood, other sterile site, urine, respiratory, wound/tissue, screening swab, stool, other) were assigned from the
+free-text isolation source by keyword rules.
+
+\subsection{Phenotype interpretation}
+
+Results were reinterpreted against CLSI M100, 35th edition (2025) \cite{clsi2025}, which the U.S. Food and Drug
+Administration (FDA) recognizes for these organism--drug pairs \cite{fdastic} (Table~\ref{tab:bp}); the breakpoint values
+were checked by the author against the published standard and the FDA Susceptibility Test Interpretive Criteria pages
+before release. A censored MIC was interpreted only when every value it allows falls in one category: $\le x$ allows
+$(0,x]$, $<x$ allows $(0,x/2]$, $\ge x$ allows $[x,\infty)$ and $>x$ allows $[2x,\infty)$. Readings from gradient strips
+that fall between two-fold dilutions (for example 1.5~mg/L) were rounded up to the next two-fold dilution before
+interpretation, as CLSI directs. MIC values not on the two-fold or gradient series (for example ``oxacillin 23~mg/L'', most
+likely a zone diameter filed with MIC units; \nv{n-isolate-drug-mic-off-dilution-series} results) were not
+reinterpreted. When a value could not be interpreted, the submitter's S/I/R call was used and flagged. When an isolate had
+several results for one drug, a reinterpreted MIC was preferred to a reinterpreted zone and both to a submitter call; ties
+kept the most resistant category. Imipenem was not used for \textit{Morganella} or \textit{Providencia}, whose imipenem
+MICs are intrinsically elevated.
+
+For \sau{}, oxacillin resistance was judged from the oxacillin MIC or the cefoxitin screen, not from the submitter's
+call. This keeps the phenotype independent of the genotype: laboratories may report oxacillin resistance on the basis of a
+\g{mecA} or PBP2a result, which would make the comparison partly circular. The alternative rule is reported as a
+sensitivity analysis.
+
+\begin{table}[t]
+\caption{Breakpoints applied (CLSI M100, 35th ed., 2025). ``Between'' gives the category assigned between the S and R
+breakpoints; ``--'' means none is defined.}
+\label{tab:bp}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_breakpoints.tex}}
+\end{table}
+
+\subsection{Gene-to-panel target crosswalk}
+
+Each AMRFinderPlus symbol was assigned to a panel target when the corresponding family node appeared among its ancestors
+in the Reference Gene Hierarchy (\g{mecA}, \g{mecC}, \g{vanA}, \g{vanB}, \texttt{blaKPC}, \texttt{blaNDM},
+\texttt{blaOXA-48\_fam}, \texttt{blaVIM}, \texttt{blaIMP}, \texttt{blaCTX-M}). The released crosswalk has \nv{xw-rows}
+rows, each with a match flag: the target itself, a family member, an untyped family call, a functional variant
+(\g{mecA}-ceftaroline), or an OXA-48 family allele that NCBI does not catalogue as carbapenem-hydrolyzing
+(\nv{xw-oxa-noncarba} alleles, for example OXA-163 and OXA-405, versus \nv{xw-oxa-carba} carbapenem-hydrolyzing alleles
+including OXA-48, -181, -232 and -244) \cite{poirel2012}. A target was ``detected'' when any matching call was present,
+whether complete or partial, since a PCR target region can be detected in a gene that the assembly reports as partial.
+Whether a given commercial panel detects a given rare allele depends on the manufacturer's instructions for use and is not
+asserted.
+
+Non-panel mechanisms were tabulated for each isolate from the catalog's drug-class annotation: other carbapenemase genes;
+porin and other point mutations annotated to carbapenems, including frameshift and truncation calls mapped by gene;
+non-CTX-M cephalosporinases, split into acquired ESBL or AmpC genes, chromosomal enzymes intrinsic to the organism
+(\eco{} \texttt{blaEC}, \textit{Enterobacter} \texttt{blaACT}/\texttt{blaMIR}, \textit{Citrobacter freundii}
+\texttt{blaCMY}, \textit{Serratia} \texttt{blaSRT}, \textit{K.~oxytoca} \texttt{blaOXY} and others) and narrow-spectrum
+OXA-1 and OXA-10 family enzymes; \eco{} \g{ampC} promoter mutations \cite{caroff2000}; and non-panel methicillin and
+glycopeptide genes.
+
+\begin{table*}[t]
+\caption{Panel targets, drugs scored and analysis groups. Composite drugs count an isolate as resistant if it is resistant
+to any tested member, and as not resistant if at least one member was tested and none was resistant.}
+\label{tab:pairs}
+\centering\footnotesize
+\begin{tabular}{llll}
+\hline\hline
+Panel target(s) & Organisms & Drugs scored individually & Composite \\
+\hline
+\g{mecA}, \g{mecC} & \sau{} & oxacillin (MIC), cefoxitin (screen) & oxacillin or cefoxitin \\
+\g{vanA}, \g{vanB} & \textit{E.~faecalis}, \textit{E.~faecium} & vancomycin & -- \\
+KPC, NDM, OXA-48-like, VIM, IMP & Enterobacterales & meropenem, imipenem, ertapenem, doripenem & any carbapenem \\
+CTX-M & Enterobacterales & ceftriaxone, cefotaxime, ceftazidime & any of the three \\
+\hline
+\multicolumn{4}{l}{Class-level targets: \g{mecA} or \g{mecC}; \g{vanA} or \g{vanB}; any panel carbapenemase (KPC, NDM,
+OXA-48-like, VIM or IMP).}\\
+\multicolumn{4}{l}{Enterobacterales are reported by organism group and pooled; \textit{Salmonella} is reported
+separately and excluded from the pooled row.}\\
+\hline\hline
+\end{tabular}
+\end{table*}
+
+\subsection{Concordance measures}
+
+For each panel target $t$, drug (or composite) $d$ and organism group $o$, isolates with a usable result for $d$ form a
+$2\times 2$ table of gene status ($G^{+}$, $G^{-}$) against phenotype ($R$, $\bar R$). Resistant ($R$) means a final
+category of R; not resistant ($\bar R$) means S, I or susceptible-dose dependent (SDD) in the main analysis. We report
+\begin{align}
+\mathrm{PPV} &= \frac{n(G^{+}R)}{n(G^{+})}, & \mathrm{NPV} &= \frac{n(G^{-}\bar R)}{n(G^{-})},\label{eq:ppv}\\
+\mathrm{Sens} &= \frac{n(G^{+}R)}{n(R)}, & \mathrm{Spec} &= \frac{n(G^{-}\bar R)}{n(\bar R)},\label{eq:sens}
+\end{align}
+and categorical agreement $[n(G^{+}R)+n(G^{-}\bar R)]/n$. PPV answers ``when the panel reports this gene, how often is the
+isolate resistant?'' and NPV answers ``when the panel does not report it, how often is the isolate not resistant?'';
+these are the quantities a laboratory acts on. Confidence intervals are Wilson score intervals \cite{wilson1927},
+\begin{equation}
+\frac{\hat p + \frac{z^{2}}{2n} \pm z\sqrt{\frac{\hat p(1-\hat p)}{n}+\frac{z^{2}}{4n^{2}}}}{1+\frac{z^{2}}{n}},\qquad z=1.96,
+\label{eq:wilson}
+\end{equation}
+which behave well when proportions are near 0 or 1 and counts are small. For a single carbapenemase, isolates carrying a
+different carbapenemase count as gene-negative; the class-level ``any panel carbapenemase'' row describes what a fully
+negative carbapenemase result means. Predictive values depend on prevalence, and prevalence in this collection reflects
+what laboratories chose to sequence (Sec.~\ref{sec:limits}).
+
+\subsection{Discordance classification}
+
+Every discordant isolate was recorded once per target (gene detected, not resistant) or per drug class (gene not detected,
+resistant), using the composite drug where one exists. Causes were assigned by fixed rules in a fixed order, and all
+applicable causes were retained alongside the primary one. For gene-detected, not-resistant isolates the order was: partial
+or interrupted gene call; non-carbapenemase OXA-48 family allele; measured value at or within one two-fold dilution of the
+resistant breakpoint (or within 2~mm for zones); submitter interpretation differing from M100-Ed35; submitter call only;
+otherwise ``unexplained by available data''. For gene-negative resistant isolates the order was class-specific:
+non-panel carbapenemase, ESBL or AmpC with a porin change, ESBL or AmpC without a called porin change, or porin change
+alone (carbapenems); panel carbapenemase present, acquired non-CTX-M ESBL or AmpC, chromosomal AmpC species, or \g{ampC}
+promoter mutation (third-generation cephalosporins); \g{vanA} operon genes without a ligase call, or a non-panel
+\g{van} gene (vancomycin); \g{mec} regulators without \g{mecA}, or a non-panel \g{mec} gene (methicillin); then the
+measurement and interpretation causes above. Cause labels identify likely mechanisms and do not prove them.
+
+\subsection{Sensitivity and secondary analyses}
+
+Pre-specified sensitivity analyses (i) excluded I and SDD results instead of counting them as not resistant, (ii) restricted
+the cohort to blood and other sterile-site isolates, the specimens panels are used on, and (iii) for \sau{}, accepted the
+submitting laboratory's ``resistant'' call for oxacillin when it disagreed with the MIC. A secondary analysis, motivated by
+the CTX-M results, compared third-generation cephalosporin resistance between CTX-M-1-group (for example CTX-M-15, -55)
+and CTX-M-9-group (for example CTX-M-14, -27) enzymes \cite{bevan2017} with a two-sided Fisher exact test.
+
+\subsection{Reproducibility, provenance and quality control}
+
+The pipeline is a set of numbered Python scripts (pandas \cite{mckinney2010}; figures with matplotlib and seaborn
+\cite{hunter2007,waskom2021}). Every number in this manuscript is read from files the pipeline writes; none was typed by
+hand. Rebuilding from the committed raw files reproduces all tables byte for byte. A quality-control report records row
+counts at each step, interpretation unit tests, sanity checks (every $2\times 2$ table sums to $n$; every proportion lies
+in $[0,1]$; no duplicate BioSamples), and named spot checks. Before release the author compared 50 laboratory values with
+the live NCBI BioSample records and recomputed the headline estimates with independent code.
+
+\subsection{Ethics}
+
+The study used only publicly released, de-identified isolate metadata and genome-derived results. No human subjects were
+contacted and no identifiable private information was accessed.
+
+% ============================================================================
+\section{Results}\label{sec:results}
+
+\subsection{Cohort}
+
+Of the \nv{n-biosamples-with-antibiogram-in-scope-organisms} BioSamples with an antibiogram, \nv{n-with-amrfinder-result}
+had an AMRFinderPlus result and \nv{n-us} were collected in the United States (Fig.~\ref{fig:flow}). Most U.S. isolates
+with antibiograms came from food, animal or environmental surveillance (\nv{n-us-excluded-not-human-clinical}), leaving
+\nv{n-us-human-clinical} human clinical isolates, of which \nv{n-benchmark-isolates} had at least one interpretable result
+for a panel-paired drug. The benchmark comprises \nv{org-escherichiacoli} \eco{}, \nv{org-klebsiellapneumoniaecomplex}
+\kpn{} complex, \nv{org-staphylococcusaureus} \sau{}, \nv{org-enterococcusfaecalis} \textit{E.~faecalis},
+\nv{org-enterococcusfaecium} \textit{E.~faecium}, \nv{org-salmonellaenterica} \textit{Salmonella enterica} and smaller
+numbers of other Enterobacterales (Table~\ref{tab:cohort}, Fig.~\ref{fig:cohort}).
+
+Urine was the commonest specimen (\nv{spec-urine} isolates, \nv{pct-urine}), followed by blood (\nv{spec-blood}),
+wound or tissue (\nv{spec-woundtissue}) and respiratory specimens (\nv{spec-respiratory}); \nv{n-blood-or-sterile} isolates
+came from blood or another sterile site. Isolates were collected from \nv{collection-year-min} to
+\nv{collection-year-max} and submitted from \nv{n-states} states and the District of Columbia; \nv{n-no-state} gave no
+state. One project from the Walter Reed Army Institute of Research (\nv{top-bioproject-acc}) contributed
+\nv{top-bioproject-n} isolates (\nv{top-bioproject-share}); all District of Columbia isolates came from Walter Reed
+projects, so that location is the submitter's rather than necessarily the patient's.
+
+Of \nv{n-isolate-drug-total} isolate-drug results, \nv{n-isolate-drug-mic} were MICs and \nv{n-isolate-drug-disk} zone
+diameters; \nv{pct-phoenix} were from BD Phoenix and \nv{pct-vitek} from Vitek~2, and \nv{pct-clsi} cited CLSI as the
+testing standard. \nv{n-isolate-drug-reinterpreted} results were reinterpreted, \nv{n-isolate-drug-submitter-only} used
+the submitter's call, and \nv{n-isolate-drug-not-interpretable} could not be categorized. Where both were available, the
+submitter's S/I/R call agreed with our reinterpretation in \nv{submitter-agreement} of results.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.86\textwidth]{figures/fig1_flow.pdf}
+\caption{Construction of the benchmark from NCBI BioSample antibiograms and NCBI Pathogen Detection AMRFinderPlus results.
+``Panel-paired drug'': a drug scored against a panel target for that organism (Table~\ref{tab:pairs}).}
+\label{fig:flow}
+\end{figure*}
+
+\begin{table}[t]
+\caption{Benchmark isolates by organism group.}
+\label{tab:cohort}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_cohort.tex}}
+\par\vspace{2pt}\parbox{0.97\linewidth}{\footnotesize $^{a}$Distinct states named, District of Columbia included; isolates
+without a stated location are not counted.}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig2_cohort.pdf}
+\caption{Benchmark composition. (a) Specimen category by organism group (groups with at least 10 isolates; totals at
+right). (b) Collection year. (c) Submitting state, eight most frequent. $^{*}$All District of Columbia isolates were
+submitted by the Walter Reed Army Institute of Research; the location is the submitter's.}
+\label{fig:cohort}
+\end{figure*}
+
+\subsection{Panel targets detected}
+
+AMRFinderPlus detected \g{mecA} in \nv{det-meca} isolates, \g{vanA} in \nv{det-vana}, KPC in \nv{det-kpc}, NDM in
+\nv{det-ndm}, OXA-48-like enzymes in \nv{det-oxa48like}, VIM in \nv{det-vim}, IMP in \nv{det-imp} and CTX-M in
+\nv{det-ctxm}; \g{mecC} and \g{vanB} were not found (Table~\ref{tab:xw}). \nv{n-any-carba} isolates carried at least one
+panel carbapenemase, \nv{n-carba-kp} of them \kpn{} complex, and \nv{n-multi-carba} carried two or more. KPC-3
+(\nv{kpc3}) and KPC-2 (\nv{kpc2}) dominated the KPC calls; NDM-1 (\nv{ndm1}) and NDM-5 (\nv{ndm5}) the NDM calls; and
+OXA-181 (\nv{oxa181}), OXA-232 (\nv{oxa232}) and OXA-48 (\nv{oxa48}) the OXA-48-like calls. CTX-M-15 (\nv{ctxm15}),
+CTX-M-27 (\nv{ctxm27}) and CTX-M-14 (\nv{ctxm14}) were the commonest CTX-M alleles. Only \nv{partial-ctxm} CTX-M calls,
+and no other panel target calls, were partial.
+
+\begin{table*}[t]
+\caption{Gene-to-panel target crosswalk (AMRFinderPlus Reference Gene Hierarchy, database \nv{refgene-db}) and alleles
+observed in the benchmark. ``Symbols'': crosswalk rows; ``Isolates'': benchmark isolates with the target detected.
+An isolate carrying two alleles of one family counts once for each allele.}
+\label{tab:xw}
+\centering\footnotesize
+\input{tables/tab_crosswalk.tex}
+\par\vspace{2pt}\parbox{0.9\textwidth}{\footnotesize $^{a}$OXA-48 family alleles that NCBI's catalog does not list as
+carbapenem-hydrolyzing (flag \texttt{FAMILY\_MEMBER\_NONCARBA}).}
+\end{table*}
+
+\subsection{Main concordance results}
+
+Table~\ref{tab:main} and Fig.~\ref{fig:forest} give the headline estimates; the full table of
+\nv{n-concordance-rows} analysis rows is released with the data.
+
+\begin{table*}[t]
+\caption{Concordance of panel targets with laboratory susceptibility, all U.S. human clinical isolates (main analysis:
+I and SDD counted as not resistant). G+R: gene detected, resistant; G+S: gene detected, not resistant; G$-$R: gene not
+detected, resistant; G$-$S: gene not detected, not resistant. OXA, oxacillin; FOX, cefoxitin; VAN, vancomycin; CBP,
+carbapenem; MEM, meropenem; CRO, ceftriaxone.}
+\label{tab:main}
+\centering\scriptsize
+\resizebox{\textwidth}{!}{\input{tables/tab_main.tex}}
+\par\vspace{2pt}\parbox{\textwidth}{\footnotesize $^{a}$Pooled Enterobacterales excluding \textit{Salmonella}.
+$^{b}$KPC, NDM, OXA-48-like, VIM or IMP.}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig3_forest.pdf}
+\caption{Positive (a) and negative (b) predictive values with Wilson 95\% confidence intervals for the principal
+target--organism--drug combinations. Fractions at right are the counts behind each estimate. ``Enterobacterales'' excludes
+\textit{Salmonella}. CBP, carbapenem; MEM, meropenem; CRO, ceftriaxone; OXA/FOX, oxacillin or cefoxitin; VAN,
+vancomycin.}
+\label{fig:forest}
+\end{figure*}
+
+\subsubsection{\g{mecA} and \g{mecC} in \sau{}}
+\g{mecA} was detected in \nv{meca-genepos} of \nv{meca-n} \sau{} with an oxacillin or cefoxitin result, and
+\nv{meca-geneposR} of them were resistant (PPV \nv{meca-ppv}, 95\% CI \nv{meca-ppv-ci}). Among isolates without \g{mecA}
+or \g{mecC}, \nv{mecamecc-npv-frac} were not resistant (NPV \nv{mecamecc-npv}, \nv{mecamecc-npv-ci}); sensitivity was
+\nv{meca-sensitivity} and specificity \nv{meca-specificity}. The phenotype separated cleanly by genotype
+(Fig.~\ref{fig:mic}a): almost every \g{mecA}-negative isolate had an oxacillin MIC $\le$0.5~mg/L and almost every
+\g{mecA}-positive isolate an MIC $\ge$4~mg/L. The \nv{gp-meca} \g{mecA}-positive isolates without resistance
+(\nv{meca-s-ids}) had oxacillin MICs of 0.25 to 2~mg/L (Appendix Table~\ref{tab:app}); for \nv{mecaalt-n} of them the
+submitting laboratory had nevertheless reported oxacillin resistance. One \g{mecA}-negative isolate
+(\nv{gn-meca-ids}) was cefoxitin-resistant (MIC $\ge$64~mg/L) with an oxacillin MIC of 0.5~mg/L and no other \g{mec}
+gene detected.
+
+\subsubsection{\g{vanA} and \g{vanB} in enterococci}
+The enterococcal arm is small. \g{vanA} was detected in \nv{van-genepos} of \nv{van-n} enterococci with a vancomycin
+result, and \nv{van-geneposR} were resistant (PPV \nv{van-ppv}, \nv{van-ppv-ci}); NPV was \nv{van-npv}
+(\nv{van-npv-ci}). In \textit{E.~faecium}, PPV was \nv{vana-fm-ppv} (\nv{vana-fm-ppv-frac}) and NPV \nv{vana-fm-npv}
+(\nv{vana-fm-npv-frac}); in \textit{E.~faecalis} all \nv{vana-fs-genepos} \g{vanA}-positive isolates were resistant.
+The \nv{gp-vana} \g{vanA}-positive, vancomycin-susceptible isolates were all \textit{E.~faecium} (\nv{vana-s-ids}) with
+vancomycin MICs of 1 to 2~mg/L, a pattern described as vancomycin-variable or silent \g{vanA}
+\cite{szakacs2014,vanA2025} (Fig.~\ref{fig:mic}b). Of the \nv{gn-van} vancomycin-resistant isolates without a panel
+\g{van} gene, one carried \g{vanA} operon accessory genes (\g{vanY}, \g{vanZ}) without a ligase call, suggesting an
+assembly break, and two \textit{E.~faecalis} had no explanation in the available data.
+
+\subsubsection{Carbapenemases in Enterobacterales}
+Any panel carbapenemase predicted resistance to at least one carbapenem in \nv{carb-any-ppv-frac} isolates (PPV
+\nv{carb-any-ppv}, \nv{carb-any-ppv-ci}); its absence predicted no carbapenem resistance in \nv{carb-any-npv-frac}
+(NPV \nv{carb-any-npv}, \nv{carb-any-npv-ci}). Sensitivity was \nv{carb-any-sensitivity}: about a third of
+carbapenem-resistant Enterobacterales in this collection carried none of the five panel enzymes. KPC alone had PPV
+\nv{kpc-any-ppv} (\nv{kpc-any-ppv-frac}), NDM \nv{ndm-any-ppv} (\nv{ndm-any-ppv-frac}) and OXA-48-like \nv{oxa-any-ppv}
+(\nv{oxa-any-ppv-frac}).
+
+The predictive value of a carbapenemase depended on which carbapenem was asked about (Table~\ref{tab:carbdrug},
+Fig.~\ref{fig:carbdrug}). Ertapenem resistance followed a carbapenemase in \nv{carb-erta-ppv} of tested producers, but meropenem resistance
+did not:
+for any panel carbapenemase, PPV was \nv{carb-mero-ppv} for meropenem (\nv{carb-mero-ppv-frac}) against
+\nv{carb-erta-ppv} for ertapenem (\nv{carb-erta-ppv-frac}) and \nv{carb-imi-ppv} for imipenem. By enzyme, meropenem PPV
+was \nv{enz-kpc-mero-pct} for KPC (\nv{enz-kpc-mero}), \nv{enz-ndm-mero-pct} for NDM (\nv{enz-ndm-mero}),
+\nv{enz-oxa48like-mero-pct} for OXA-48-like (\nv{enz-oxa48like-mero}) and \nv{enz-imp-mero-pct} for IMP
+(\nv{enz-imp-mero}). The meropenem MIC distribution of carbapenemase-positive isolates (Fig.~\ref{fig:mic}c) had a long
+tail at and below the resistant breakpoint. Doripenem was tested in \nv{dori-n} isolates (median collection year \nv{dori-median-year}), mostly from
+one project, and is shown for completeness.
+
+By organism, PPV for any carbapenem was high in \kpn{} complex (\nv{carb-any-kp-ppv-frac}) and \textit{E.~cloacae} complex
+(\nv{carb-any-ecl-ppv-frac}), but NPV fell where non-carbapenemase mechanisms are common: \nv{carb-any-ecl-npv} in
+\textit{E.~cloacae} complex and \nv{carb-any-kae-npv} in \textit{K.~aerogenes} (Table~\ref{tab:carborg}). In \eco{},
+carbapenemase-positive isolates were often meropenem-susceptible (meropenem PPV \nv{carb-mero-ec-ppv},
+\nv{carb-mero-ec-ppv-frac}).
+
+\begin{table}[t]
+\caption{PPV of each carbapenemase for resistance to each carbapenem, pooled Enterobacterales excluding
+\textit{Salmonella}: resistant / gene-positive tested (percent).}
+\label{tab:carbdrug}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_carb_drug.tex}}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/fig4_carb_drug.pdf}
+\caption{PPV of each panel carbapenemase for resistance to meropenem, imipenem, ertapenem and any carbapenem, pooled
+Enterobacterales excluding \textit{Salmonella}, with Wilson 95\% CIs. ``Any'': any of the five panel enzymes.}
+\label{fig:carbdrug}
+\end{figure}
+
+\begin{table}[t]
+\caption{Any panel carbapenemase by organism group. PPV and NPV as resistant/gene-positive and not resistant/gene-negative.}
+\label{tab:carborg}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_carb_org.tex}}
+\end{table}
+
+\subsubsection{CTX-M and third-generation cephalosporins}
+CTX-M predicted ceftriaxone resistance with PPV \nv{ctx-cro-ppv} (\nv{ctx-cro-ppv-ci}) in pooled Enterobacterales,
+\nv{ctx-cro-ec-ppv} in \eco{} and \nv{ctx-cro-kp-ppv} in \kpn{} complex (Table~\ref{tab:ctxorg}). The value of a negative
+result depended strongly on organism (Fig.~\ref{fig:ctxm}a). In \eco{}, \nv{ctx-cro-ec-npv-frac} CTX-M-negative isolates
+were not ceftriaxone-resistant (NPV \nv{ctx-cro-ec-npv}); in \kpn{} complex only \nv{ctx-cro-kp-npv-frac} were (NPV
+\nv{ctx-cro-kp-npv}), because most CTX-M-negative, ceftriaxone-resistant \kpn{} carried another acquired ESBL or AmpC
+(\nv{kp-ctx-gn-acq} of \nv{kp-ctx-gn} as primary cause, mostly SHV-type) or a panel carbapenemase
+(\nv{kp-ctx-gn-carb}). In chromosomal AmpC
+species the NPV was below 10\%: \nv{ctx-cro-ecl-npv} in \textit{E.~cloacae} complex, \nv{ctx-cro-kae-npv} in
+\textit{K.~aerogenes} and \nv{ctx-cro-cf-npv} in \textit{C.~freundii} complex. For \textit{Salmonella}, CTX-M was rare
+and the NPV was \nv{ctx-cro-sal-npv}.
+
+CTX-M predicted ceftazidime resistance much less reliably than ceftriaxone resistance (PPV \nv{ctx-caz-ec-ppv} in
+\eco{}, \nv{ctx-caz-kp-ppv} in \kpn{} complex). The secondary analysis attributes this to the CTX-M subgroup
+(Table~\ref{tab:ctxsub}, Fig.~\ref{fig:ctxm}b). In \eco{}, CTX-M-1-group enzymes conferred ceftriaxone resistance in
+\nv{sub-ecg1-ceftri} (\nv{sub-ecg1-ceftri-pct}) and ceftazidime resistance in \nv{sub-ecg1-ceftaz}
+(\nv{sub-ecg1-ceftaz-pct}); CTX-M-9-group enzymes conferred ceftriaxone resistance in \nv{sub-ecg9-ceftri}
+(\nv{sub-ecg9-ceftri-pct}) but ceftazidime resistance in only \nv{sub-ecg9-ceftaz} (\nv{sub-ecg9-ceftaz-pct};
+Fisher exact \nv{sub-ec-fisher}). In \kpn{} complex, CTX-M-1-group enzymes conferred ceftazidime resistance in
+\nv{sub-kpg1-ceftaz} (\nv{sub-kpg1-ceftaz-pct}); CTX-M-9-group enzymes were too few to compare.
+
+\begin{table}[t]
+\caption{CTX-M and ceftriaxone by organism group.}
+\label{tab:ctxorg}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_ctxm_org.tex}}
+\par\vspace{2pt}\parbox{0.97\linewidth}{\footnotesize $^{a}$Excluding \textit{Salmonella}.}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig5_ctxm.pdf}
+\caption{CTX-M and third-generation cephalosporins. (a) NPV of a CTX-M-negative result for ceftriaxone by organism group
+(Wilson 95\% CI; green, \eco{} and \textit{Salmonella}; purple, \kpn{} complex; gray, species with chromosomal AmpC or
+other intrinsic cephalosporinases). (b) Share resistant to ceftriaxone and ceftazidime among CTX-M-positive isolates, by
+CTX-M subgroup (CTX-M-1 group, e.g. CTX-M-15, -55; CTX-M-9 group, e.g. CTX-M-14, -27).}
+\label{fig:ctxm}
+\end{figure*}
+
+\begin{table}[t]
+\caption{Secondary analysis: third-generation cephalosporin resistance among CTX-M-positive isolates by CTX-M subgroup
+(resistant/tested, percent). Isolates carrying both subgroups or untyped CTX-M are not shown.}
+\label{tab:ctxsub}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_ctxm_sub.tex}}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig6_mic.pdf}
+\caption{MIC distributions by panel-target status. Bars show the share of isolates in each group at each MIC on the
+two-fold scale; censored readings are placed at their bound ($\le x$ and $\ge x$ at $x$, $<x$ at $x/2$, $>x$ at $2x$) and
+gradient-strip half-steps are rounded up. Dotted line: susceptible breakpoint; dashed line: resistant breakpoint
+(CLSI M100-Ed35). (a) \sau{}, oxacillin, by \g{mecA}. (b) Enterococci, vancomycin, by \g{vanA}. (c) Enterobacterales
+excluding \textit{Salmonella}$^{a}$, meropenem, by any panel carbapenemase. (d) \eco{}, ceftriaxone, by CTX-M.}
+\label{fig:mic}
+\end{figure*}
+
+\subsection{Sensitivity analyses}
+
+The headline estimates were stable when I and SDD results were excluded instead of counted as not resistant
+(Table~\ref{tab:sens}, Fig.~\ref{fig:robust}). Excluding them raised the meropenem PPV of any panel carbapenemase from
+\nv{carb-mero-ppv} to \nv{carb-mero-exI-ppv}, because many carbapenemase producers have meropenem MICs in the
+intermediate range. Restricting to blood and sterile-site isolates left the \g{mecA} and carbapenemase estimates within
+the confidence intervals of the main analysis, with wider intervals; the NPV of CTX-M for ceftriaxone in \eco{} was lower
+in blood isolates (\nv{ctx-cro-ec-blood-npv}, \nv{ctx-cro-ec-blood-npv-frac}) than overall (\nv{ctx-cro-ec-npv}).
+Accepting the submitting laboratory's oxacillin call for \sau{} raised the \g{mecA} PPV from \nv{meca-ppv} to
+\nv{mecaalt-ppv} (\nv{mecaalt-frac}).
+
+\begin{table*}[t]
+\caption{Sensitivity analyses for the headline estimates.}
+\label{tab:sens}
+\centering\footnotesize
+\input{tables/tab_sensitivity.tex}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig8_robustness.pdf}
+\caption{Robustness of PPV (a) and NPV (b) to excluding intermediate and SDD results and to restricting to blood and
+sterile-site isolates, with Wilson 95\% CIs. CBP, carbapenem; MEM, meropenem; CRO, ceftriaxone.}
+\label{fig:robust}
+\end{figure*}
+
+\subsection{Discordant isolates}
+
+The discordance collection contains \nv{n-discordance-cases} isolate-target pairs from \nv{n-discordant-isolates}
+isolates: \nv{disc-gp} with the gene detected but no resistance, and \nv{disc-gn} resistant without the panel target
+(Table~\ref{tab:disc}, Fig.~\ref{fig:disc}).
+
+Gene-detected, not-resistant isolates were few. Of the \nv{disc-gp}, \nv{gp-near} had a measured value at or within
+one dilution of the resistant breakpoint, \nv{gp-subdiff} had a submitter call that differed from our reinterpretation,
+and \nv{gp-unexpl} had no explanation in the available data (Appendix Table~\ref{tab:app}). For \sau{}, in
+\nv{mecaalt-n} of the \nv{gp-meca} cases the submitting laboratory had reported oxacillin resistance despite the MIC. No
+gene-detected, not-resistant case involved a partial gene call.
+
+Gene-negative resistant isolates were dominated by third-generation cephalosporin resistance without CTX-M
+(\nv{disc-ceph-gn} of \nv{disc-gn}). Of these, \nv{dc-ceph-gn-acqesbl} carried an acquired non-CTX-M ESBL or AmpC,
+\nv{dc-ceph-gn-ampcorg} belonged to a species with chromosomal AmpC, and \nv{dc-ceph-gn-carbpres} carried a panel
+carbapenemase, which itself confers cephalosporin resistance; \nv{dc-ceph-gn-unexpl} were unexplained. Among
+\nv{disc-carb-gn} carbapenem-resistant isolates without a panel carbapenemase, \nv{dc-carb-gn-esblporin} carried an ESBL or
+AmpC with a porin change, \nv{dc-carb-gn-esblnoporin} an ESBL or AmpC without a called porin change, and
+\nv{dc-carb-gn-poriononly} a porin change alone, consistent with non-carbapenemase carbapenem resistance
+\cite{tamma2017,pitout2015}; \nv{dc-carb-gn-near} had a value within one dilution of the breakpoint, and
+\nv{dc-carb-gn-npcarb} carried a non-panel carbapenemase (\nv{npc-genes}).
+
+\begin{table}[t]
+\caption{Discordant isolate-target pairs by primary cause and drug class.}
+\label{tab:disc}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_discordance.tex}}
+\par\vspace{2pt}\parbox{0.97\linewidth}{\footnotesize $^{a}$Third-generation cephalosporins.}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig7_discordance.pdf}
+\caption{Discordant isolate-target pairs by primary cause, colored by drug class. (a) Gene detected, not resistant.
+(b) Gene not detected, resistant. Causes are rule-based likely causes, not proven mechanisms.}
+\label{fig:disc}
+\end{figure*}
+
+% ============================================================================
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Principal findings}
+
+Using public data alone, this benchmark measures how well the resistance targets on rapid blood culture panels predict
+the susceptibility result that follows, for \nv{n-benchmark-isolates} U.S. clinical isolates. Three patterns stand out.
+First, a \emph{detected} target was a strong signal for most combinations: \g{mecA} for oxacillin or cefoxitin in \sau{}
+(\nv{meca-ppv}), KPC and NDM for any carbapenem (\nv{kpc-any-ppv} and \nv{ndm-any-ppv}), and CTX-M for ceftriaxone
+(\nv{ctx-cro-ppv}) all had PPVs above 97\%. Second, a \emph{negative} result was organism-dependent:
+excellent for \g{mecA} in \sau{} and good for CTX-M in \eco{}, but weak for CTX-M in \kpn{} and nearly uninformative in
+chromosomal AmpC species. Third, the drug matters as much as the gene: carbapenemase producers were almost always
+ertapenem-resistant but often meropenem-susceptible, and CTX-M-9-group producers were usually ceftazidime-susceptible.
+
+\subsection{Interpretation by target}
+
+\subsubsection{\g{mecA}}
+The near-complete separation of oxacillin MICs by \g{mecA} status agrees with earlier genome-based studies of \sau{}
+\cite{gordon2014}. The \g{mecA}-positive, oxacillin-susceptible isolates resemble oxacillin-susceptible MRSA, which can be
+missed by phenotypic testing \cite{osmrsa2002}. Because CLSI directs that \sau{} positive for \g{mecA} or PBP2a be reported
+as oxacillin-resistant \cite{clsi2025}, the laboratory call and the MIC can legitimately differ; we kept the MIC to avoid
+circularity and report both.
+
+\subsubsection{\g{vanA}}
+The \g{vanA}-positive, vancomycin-susceptible \textit{E.~faecium} are consistent with vancomycin-variable enterococci,
+which can revert to resistance under glycopeptide exposure \cite{szakacs2014,vanA2025}. For a panel result this means
+that a positive \g{vanA} should not be over-ruled by an early susceptible phenotype. The enterococcal sample is small, and
+the absence of \g{vanB} means this release cannot estimate \g{vanB} performance.
+
+\subsubsection{Carbapenemases}
+High PPV for ``any carbapenem'' coexisted with lower PPV for meropenem. OXA-48-like enzymes hydrolyze carbapenems weakly
+and often leave meropenem MICs below the resistant breakpoint \cite{poirel2012}. The same pattern was common for IMP
+(only \nv{enz-imp-mero} meropenem-resistant) and less common for KPC (\nv{enz-kpc-mero}). Treatment guidance distinguishes carbapenemase producers by enzyme class rather than by meropenem MIC
+\cite{idsa2024}, so a carbapenemase-positive, meropenem-susceptible isolate is not a panel error but a reason to report
+enzyme and MIC together. Conversely, about a third of carbapenem-resistant isolates had no panel carbapenemase, most with an
+ESBL or AmpC and porin change; non-carbapenemase carbapenem-resistant Enterobacterales differ clinically from
+carbapenemase producers \cite{tamma2017}. A negative carbapenemase panel therefore rules out the five enzymes, not carbapenem
+resistance, particularly in \textit{Enterobacter} and \textit{K.~aerogenes}.
+
+\subsubsection{CTX-M}
+The weak NPV of CTX-M outside \eco{} reflects well-known biology: SHV- and TEM-type ESBLs and plasmid AmpC in \kpn{}
+\cite{bush2020}, and chromosomal AmpC in \textit{Enterobacter}, \textit{K.~aerogenes} and \textit{Citrobacter}
+\cite{jacoby2009}. The subgroup analysis shows that CTX-M is not one phenotype: CTX-M-15 and related CTX-M-1-group enzymes
+commonly confer ceftazidime resistance, whereas CTX-M-14 and CTX-M-27 usually do not; together these two were the second and third
+commonest CTX-M alleles in this collection (\nv{ctxm27} and \nv{ctxm14} calls), consistent with the spread of CTX-M-27
+described elsewhere \cite{bevan2017}. Panels report ``CTX-M'' without the subgroup, so a CTX-M result predicts ceftriaxone resistance far better
+than ceftazidime resistance.
+
+\subsection{Implications}
+
+These estimates can inform how laboratories word panel reports and how stewardship programs write escalation and
+de-escalation rules, for example by pairing a negative CTX-M result in \textit{Enterobacter} with a comment that
+cephalosporin resistance remains possible, or by reporting a carbapenemase result together with the eventual meropenem MIC.
+They are not a substitute for local validation; predictive values depend on local prevalence, and this collection is
+enriched for resistance. Because the benchmark is open and versioned, a laboratory can filter it to the organisms,
+specimens and years that resemble its own population, and the annual update will show whether estimates drift as new
+genomes are deposited.
+
+\subsection{Strengths}
+
+The benchmark uses only public data, so every number can be checked against NCBI records by anyone. All isolate-drug
+results were reinterpreted against one breakpoint edition rather than taken from submitters' mixed interpretations.
+Genes were mapped through NCBI's own hierarchy, and every discordant isolate is released with its genotype, its measured
+values and the rule that labeled it. The full pipeline rebuilds the release byte for byte.
+
+\subsection{Limitations}\label{sec:limits}
+
+\begin{enumerate}[leftmargin=*,itemsep=1pt,topsep=2pt]
+\item \emph{Genome calls stand in for panel calls.} AMRFinderPlus results from assembled genomes do not capture panel
+primer coverage, limits of detection, mixed cultures or specimen effects. The benchmark estimates how well the presence of
+the gene predicts the phenotype, not how a commercial panel performs.
+\item \emph{Selection.} Isolates are those that laboratories and surveillance programs chose to sequence with
+susceptibility data. Resistant organisms and outbreak investigations are over-represented, which raises PPV and lowers
+NPV relative to an unselected population.
+\item \emph{Concentration.} One submitter contributed \nv{top-bioproject-share} of isolates; its platform, drug panel and
+selection rules shape the results. All District of Columbia locations are the submitter's.
+\item \emph{Sparse arms.} Enterococci, VIM and IMP are few, and \g{vanB} and \g{mecC} are absent.
+\item \emph{Heterogeneous testing.} Results come from many laboratories and methods without central re-testing; a small
+number of submitted values were not valid MICs.
+\item \emph{Cause labels are rule-based.} Expression changes, porin loss not called by AMRFinderPlus, heteroresistance,
+mixed cultures and assembly errors cannot be distinguished with public data.
+\item \emph{Mixed AMRFinderPlus versions.} NCBI analyzed isolates with several database versions; newer versions may
+call genes that older runs missed.
+\item \emph{Coverage.} NCBI Pathogen Detection has no \textit{Proteus} group, so \textit{Proteus} is absent; specimen
+categories are inferred from free text.
+\end{enumerate}
+
+% ============================================================================
+\section{Conclusions}\label{sec:conclusions}
+
+Public genome and susceptibility data are now sufficient to measure, gene by gene and organism by organism, how well the
+resistance targets on rapid blood culture panels predict the susceptibility result that follows. In \nv{n-benchmark-isolates}
+U.S. clinical isolates, detected targets were strong predictors of resistance, while negative results were reliable only
+for some organisms; the drug, the enzyme and the CTX-M subgroup all changed the answer. The benchmark, crosswalk,
+discordance collection, code and lookup page are released openly and will be updated annually, so that laboratories can
+check these figures against their own populations and track how they change.
+
+% ============================================================================
+\section*{Data and code availability}
+\addcontentsline{toc}{section}{Data and code availability}
+All data, code and documentation are available at
+\url{https://github.com/FatimaAbdulwahab/us-rapid-panel-amr-concordance} \cite{thiswork}, including the isolate-level
+benchmark, the full concordance table (\nv{n-concordance-rows} rows), the discordance case collection, the gene-to-panel
+crosswalk, the breakpoint table, a codebook and a provenance log with source URLs, access dates, sizes and SHA-256
+fingerprints. The public lookup page is at \url{https://fatimaabdulwahab.github.io/us-rapid-panel-amr-concordance/}.
+Zenodo archives: benchmark, DOI \nv{zenodo-doi}; crosswalk, DOI \nv{zenodo-doi-xw}; discordance collection, DOI
+\nv{zenodo-doi-disc}. Data are released under CC BY 4.0 and code under the MIT license.
+
+\section*{Author contributions}
+F.A.: conceptualization, methodology, data curation, formal analysis, validation, visualization, writing (original draft,
+review and editing).
+
+\section*{Competing interests}
+The author declares no competing interests and no relationship with any manufacturer of rapid diagnostic panels.
+
+\section*{Funding}
+This work received no specific funding.
+
+\section*{Use of AI tools}
+Claude (Anthropic) assisted with code, data processing, figure generation and drafting of this manuscript. The author
+made the analytic decisions, verified the outputs against NCBI records and the published breakpoint standard, and takes
+responsibility for the content.
+
+\section*{Acknowledgments}
+The author thanks the laboratories and public-health programs that deposited genomes and susceptibility results at NCBI,
+and the NCBI Pathogen Detection team for maintaining AMRFinderPlus and the Reference Gene Catalog.
+
+\small
+\input{references.tex}
+\normalsize
+
+% ============================================================================
+\onecolumn
+\appendix
+\renewcommand{\thetable}{A\Roman{table}}
+\setcounter{table}{0}
+\section*{Appendix: Gene-detected, not-resistant isolates (excluding CTX-M)}
+
+\begin{table}[h]
+\caption{Every isolate in which \g{mecA}, \g{vanA} or a panel carbapenemase was detected but the isolate was not
+resistant to the paired drug or composite. Phenotype gives each drug's MIC (mg/L) or zone diameter (mm) and final category; ``(sub.)'' marks a
+submitter call. The \nv{gp-ctxm} CTX-M cases are in the released discordance file.}
+\label{tab:app}
+\centering\footnotesize
+\input{tables/tab_appendix_gp.tex}
+\end{table}
+
+\end{document}
