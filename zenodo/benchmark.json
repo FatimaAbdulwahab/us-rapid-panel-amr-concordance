@@ -1,0 +1,38 @@
+{
+ "upload_type": "dataset",
+ "creators": [
+  {
+   "name": "Abdulwahab, Fatima",
+   "orcid": "0009-0008-2298-8386",
+   "affiliation": "Independent Researcher, Dallas, Texas, USA"
+  }
+ ],
+ "license": "cc-by-4.0",
+ "version": "1.0.0",
+ "access_right": "open",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/FatimaAbdulwahab/us-rapid-panel-amr-concordance",
+   "relation": "isSupplementedBy",
+   "resource_type": "software"
+  },
+  {
+   "identifier": "https://fatimaabdulwahab.github.io/us-rapid-panel-amr-concordance/",
+   "relation": "isDocumentedBy"
+  }
+ ],
+ "keywords": [
+  "antimicrobial resistance",
+  "rapid diagnostics",
+  "blood culture identification panel",
+  "AMRFinderPlus",
+  "genotype-phenotype concordance",
+  "NCBI Pathogen Detection",
+  "carbapenemase",
+  "mecA",
+  "vanA",
+  "CTX-M"
+ ],
+ "title": "U.S. Rapid Panel Resistance Marker Concordance Benchmark",
+ "description": "<p>An open isolate-level dataset pairing NCBI AMRFinderPlus resistance gene calls with submitted laboratory susceptibility results for U.S. human clinical isolates of <i>Staphylococcus aureus</i>, <i>Enterococcus faecalis</i>, <i>Enterococcus faecium</i> and the Enterobacterales. Genes are mapped to the targets rapid blood culture panels report (mecA, mecC, vanA, vanB, KPC, NDM, OXA-48-like, VIM, IMP, CTX-M). MICs and zone diameters are reinterpreted against CLSI M100 (35th ed., 2025) breakpoints, and PPV, NPV, sensitivity and specificity with Wilson 95% intervals are reported by gene, drug and organism, for all specimens and for blood and sterile-site isolates. Includes the codebook, provenance log (source URLs, access dates, SHA-256 fingerprints, row counts, terms of use) and the full code to rebuild it.</p><p>Gene calls from assembled genomes stand in for panel results; this is not an evaluation of any commercial device. See LIMITATIONS.md.</p>"
+}

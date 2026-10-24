@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "U.S. Rapid Panel Resistance Marker Concordance Benchmark"
+version: "1.0.0"
+date-released: "2026-10-24"
+authors:
+  - family-names: "Abdulwahab"
+    given-names: "Fatima"
+    affiliation: "Independent Researcher, Dallas, Texas, USA"
+    orcid: "https://orcid.org/0009-0008-2298-8386"
+license: CC-BY-4.0
+repository-code: "https://github.com/FatimaAbdulwahab/us-rapid-panel-amr-concordance"
+url: "https://fatimaabdulwahab.github.io/us-rapid-panel-amr-concordance/"
+abstract: >-
+  An open isolate-level dataset pairing NCBI AMRFinderPlus resistance gene calls with submitted
+  laboratory susceptibility results for U.S. human clinical isolates of Staphylococcus aureus,
+  Enterococcus faecalis, Enterococcus faecium and the Enterobacterales, scored gene by gene for
+  the targets that rapid blood culture panels report (mecA, mecC, vanA, vanB, KPC, NDM,
+  OXA-48-like, VIM, IMP, CTX-M), with every discordant isolate classified by likely cause.
+keywords:
+  - antimicrobial resistance
+  - rapid diagnostics
+  - blood culture identification panel
+  - AMRFinderPlus
+  - genotype-phenotype concordance
+  - carbapenemase
+  - mecA
+  - vanA
+  - CTX-M
+  - NCBI Pathogen Detection

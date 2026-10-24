@@ -1,0 +1,145 @@
+QA REPORT - U.S. Rapid Panel Resistance Marker Concordance Benchmark
+PLAIN-LANGUAGE NOTE: Written automatically by code/04_build.py. It shows how many isolates
+were kept at each step, how results were interpreted, and five isolates to check by hand.
+
+== Funnel ==
+BioSamples with an antibiogram (S. aureus, E. faecalis, E. faecium, Enterobacterales), worldwide: 26886
+...of which have an AMRFinderPlus result in Pathogen Detection: 26109
+rows sharing a BioSample (collapsed to latest genome): 20
+...collected in the USA (geo_loc_name starts with 'USA'): 19587
+...U.S. isolates excluded as non-clinical or non-human (food, animal, environment): 14054
+...U.S. human clinical isolates: 5533
+...laboratory reference strains removed (e.g. JE2, LAC): SAMN06677988 (JE2), SAMN08391108 (LAC): 2
+isolate-drug pairs tested twice with different categories (most resistant kept): 3
+share of isolate-drug results where the submitter's S/I/R matches reinterpretation: 0.9974
+isolate-drug MICs not on the two-fold dilution series (likely unit errors; submitter call used): 170
+isolate-drug MICs read from gradient strips (half-steps) rounded up to the next two-fold dilution: 63
+n_isolate_drug_reinterpreted: 19741
+n_isolate_drug_submitter_only: 281
+n_isolate_drug_not_interpretable: 10
+isolates in the benchmark (>=1 usable paired drug result): 5168
+interpretation_unit_tests_pass: True
+
+== Isolates by organism ==
+organism
+Escherichia coli                 3176
+Klebsiella pneumoniae complex     790
+Staphylococcus aureus             550
+Enterobacter cloacae complex      166
+Klebsiella aerogenes              115
+Salmonella enterica               109
+Enterococcus faecalis              83
+Citrobacter freundii complex       54
+Enterococcus faecium               36
+Morganella / Providencia           31
+Serratia spp.                      30
+Klebsiella oxytoca complex         18
+Other Enterobacterales              7
+Klebsiella, other                   3
+
+== Isolates by specimen category ==
+specimen_category
+urine                          3426
+blood                           701
+wound/tissue                    276
+respiratory                     259
+screening/colonization swab     191
+other/unspecified               190
+stool                            95
+other sterile site               30
+
+== Isolates by human-clinical rule ==
+human_clinical_rule
+clinical package, human host                           5065
+clinical package, host blank, human specimen source     103
+
+== Top BioProjects (concentration check) ==
+bioproject_acc
+PRJNA809394     2076
+PRJNA278886     1139
+PRJNA1271593     719
+PRJNA288601      270
+PRJNA1048360     168
+PRJNA376414      141
+PRJNA287785       98
+PRJNA510429       94
+PRJNA396774       74
+PRJNA736958       61
+
+== Isolate-drug results by interpretation source ==
+drug         category_source                
+cefotaxime   reinterpreted MIC                   427
+             submitter interpretation             32
+cefoxitin    drug not applicable to organism    1421
+             reinterpreted MIC                     1
+ceftazidime  drug not applicable to organism       6
+             reinterpreted DISK                    8
+             reinterpreted MIC                  3706
+             submitter interpretation              1
+ceftriaxone  drug not applicable to organism       6
+             reinterpreted DISK                    9
+             reinterpreted MIC                  3890
+             submitter interpretation             64
+doripenem    reinterpreted MIC                   305
+ertapenem    drug not applicable to organism       4
+             not interpretable                    10
+             reinterpreted DISK                    9
+             reinterpreted MIC                  3887
+             submitter interpretation             72
+imipenem     drug not applicable to organism       5
+             reinterpreted DISK                   79
+             reinterpreted MIC                  2976
+             submitter interpretation             51
+meropenem    drug not applicable to organism       6
+             reinterpreted DISK                    8
+             reinterpreted MIC                  3770
+             submitter interpretation             58
+oxacillin    drug not applicable to organism      25
+             reinterpreted MIC                   547
+             submitter interpretation              3
+vancomycin   drug not applicable to organism     428
+             reinterpreted DISK                    3
+             reinterpreted MIC                   116
+
+== Panel target detections in benchmark ==
+mecA: 220
+mecC: 0
+vanA: 29
+vanB: 0
+KPC: 209
+NDM: 41
+OXA-48-like: 38
+VIM: 5
+IMP: 8
+CTX-M: 1064
+
+== Sanity checks ==
+all proportions within [0,1]: True
+2x2 cells sum to n in every row: True
+no duplicate BioSamples in benchmark: True
+all benchmark isolates U.S.: True
+
+== Spot checks (verify each against NCBI by hand) ==
+{"biosample_acc": "SAMN08391007", "organism": "Staphylococcus aureus", "check_gene": "mecA", "alleles": "mecA", "drug": "oxacillin", "sign": ">", "value": "2", "category": "R", "biosample_url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN08391007", "isolates_browser_url": "https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SAMN08391007"}
+{"biosample_acc": "SAMN09728854", "organism": "Enterococcus faecium", "check_gene": "vanA", "alleles": "vanA", "drug": "vancomycin", "sign": "<=", "value": "2", "category": "S", "biosample_url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN09728854", "isolates_browser_url": "https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SAMN09728854"}
+{"biosample_acc": "SAMN02141983", "organism": "Klebsiella pneumoniae complex", "check_gene": "KPC", "alleles": "blaKPC-3", "drug": "meropenem", "sign": "==", "value": "4", "category": "R", "biosample_url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN02141983", "isolates_browser_url": "https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SAMN02141983"}
+{"biosample_acc": "SAMN02581242", "organism": "Klebsiella pneumoniae complex", "check_gene": "NDM", "alleles": "blaNDM-1", "drug": "meropenem", "sign": ">=", "value": "16", "category": "R", "biosample_url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN02581242", "isolates_browser_url": "https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SAMN02581242"}
+{"biosample_acc": "SAMN02581298", "organism": "Escherichia coli", "check_gene": "CTX-M", "alleles": "blaCTX-M-15", "drug": "ceftriaxone", "sign": ">", "value": "32", "category": "R", "biosample_url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN02581298", "isolates_browser_url": "https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SAMN02581298"}
+{"biosample_acc": "SAMN02356588", "organism": "Escherichia coli", "check_gene": "CTX-M (absent)", "alleles": "", "drug": "ceftriaxone", "sign": "<=", "value": "1", "category": "S", "biosample_url": "https://www.ncbi.nlm.nih.gov/biosample/SAMN02356588", "isolates_browser_url": "https://www.ncbi.nlm.nih.gov/pathogens/isolates/#SAMN02356588"}
+
+== Discordance cases by primary cause ==
+direction                     primary_cause                                                                                                           
+gene detected, not resistant  measured value at or within one dilution of the resistant breakpoint                                                          7
+                              submitter's interpretation differs from current breakpoints                                                                   2
+                              unexplained by available data (candidates: low expression, heteroresistance, mixed culture, testing or assembly error)       28
+gene not detected, resistant  ESBL or AmpC detected without a called porin change (likely non-carbapenemase mechanism)                                     44
+                              ESBL or AmpC plus porin change (non-carbapenemase mechanism)                                                                 14
+                              acquired non-CTX-M ESBL or AmpC detected                                                                                    268
+                              measured value at or within one dilution of the resistant breakpoint                                                         59
+                              non-panel carbapenemase detected                                                                                              3
+                              organism with chromosomal AmpC (possible derepression)                                                                      254
+                              panel carbapenemase present (explains cephalosporin resistance)                                                             201
+                              porin change without ESBL or AmpC (non-carbapenemase mechanism)                                                              31
+                              submitter's interpretation differs from current breakpoints                                                                   1
+                              unexplained by available data (candidates: mechanism not in AMRFinderPlus, expression change, testing or assembly error)     57
+                              vanA operon genes found without a vanA ligase call (possible assembly break)                                                  1

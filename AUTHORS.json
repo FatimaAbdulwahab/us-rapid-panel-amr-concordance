@@ -1,0 +1,17 @@
+{
+  "_comment": "Author block. Every document, citation file, Zenodo record and commit reads from here. Confirm spelling before release.",
+  "authors": [
+    {
+      "name": "Fatima Abdulwahab",
+      "family": "Abdulwahab",
+      "given": "Fatima",
+      "orcid": "0009-0008-2298-8386",
+      "email": "abdulwahabfatima43@gmail.com",
+      "affiliation": "Independent Researcher, Dallas, Texas, USA",
+      "github": "FatimaAbdulwahab",
+      "roles": ["Conceptualization", "Methodology", "Data curation", "Formal analysis", "Validation", "Writing - original draft"],
+      "corresponding": true
+    }
+  ],
+  "collaborators": []
+}

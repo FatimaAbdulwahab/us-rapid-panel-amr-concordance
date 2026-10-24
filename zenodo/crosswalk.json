@@ -1,0 +1,38 @@
+{
+ "upload_type": "dataset",
+ "creators": [
+  {
+   "name": "Abdulwahab, Fatima",
+   "orcid": "0009-0008-2298-8386",
+   "affiliation": "Independent Researcher, Dallas, Texas, USA"
+  }
+ ],
+ "license": "cc-by-4.0",
+ "version": "1.0.0",
+ "access_right": "open",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/FatimaAbdulwahab/us-rapid-panel-amr-concordance",
+   "relation": "isSupplementedBy",
+   "resource_type": "software"
+  },
+  {
+   "identifier": "https://fatimaabdulwahab.github.io/us-rapid-panel-amr-concordance/",
+   "relation": "isDocumentedBy"
+  }
+ ],
+ "keywords": [
+  "antimicrobial resistance",
+  "rapid diagnostics",
+  "blood culture identification panel",
+  "AMRFinderPlus",
+  "genotype-phenotype concordance",
+  "NCBI Pathogen Detection",
+  "carbapenemase",
+  "mecA",
+  "vanA",
+  "CTX-M"
+ ],
+ "title": "AMRFinderPlus Gene to Rapid Panel Target Crosswalk",
+ "description": "<p>A table mapping every NCBI AMRFinderPlus gene symbol (Reference Gene Hierarchy, database 2026-08-07.1) in the mecA, mecC, vanA, vanB, KPC, NDM, OXA-48 family, VIM, IMP and CTX-M families to the corresponding rapid blood culture panel target, with match flags (exact target, family member, untyped family, OXA-48 family allele not catalogued as carbapenem-hydrolyzing, variant subtype) and NCBI's catalog class and subclass. Companion to the U.S. Rapid Panel Resistance Marker Concordance Benchmark. Manufacturer-specific allele coverage is not asserted.</p>"
+}

@@ -1,0 +1,155 @@
+<title>Rapid Panel Concordance Lookup</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<style>
+/* Layout: a single-column lab "result slip" - selectors on top, the 2x2 result as the hero, the full table below */
+:root{
+  --bg:#f6f8f8; --panel:#ffffff; --ink:#132326; --ink-2:#4b5d61; --rule:#d7e0e1;
+  --accent:#0e6e74; --accent-soft:#e2f0f0; --warn:#9a5b00; --warn-soft:#fbf1df; --draft:#a3122c;
+  --ppv:#2a78d6; --npv:#c4501f;
+  --f-display:"IBM Plex Serif",Georgia,serif; --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1719; --panel:#162124; --ink:#e6eeef; --ink-2:#a2b4b7; --rule:#2a3a3d;
+  --accent:#5cc0c6; --accent-soft:#16363a; --warn:#e7a94b; --warn-soft:#33270f; --draft:#ff7a8e;
+  --ppv:#5b9ff0; --npv:#ee7f50; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1719; --panel:#162124; --ink:#e6eeef; --ink-2:#a2b4b7; --rule:#2a3a3d;
+  --accent:#5cc0c6; --accent-soft:#16363a; --warn:#e7a94b; --warn-soft:#33270f; --draft:#ff7a8e;
+  --ppv:#5b9ff0; --npv:#ee7f50; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body);margin:0}
+.wrap{max-width:980px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+.draft{border:1px solid var(--draft);color:var(--draft);padding:8px 12px;border-radius:6px;font-size:13px}
+header h1{font:600 clamp(24px,4vw,34px)/1.15 var(--f-display);margin:0 0 6px;text-wrap:balance}
+header p{margin:0;color:var(--ink-2);max-width:68ch}
+.eyebrow{font:500 11.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--ink-2);font-weight:500;letter-spacing:.02em}
+select{font:15px var(--f-body);color:var(--ink);background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:8px 10px}
+select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.slip{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:18px}
+.slip h2{font:600 19px/1.3 var(--f-display);margin:0}
+.slip .sub{color:var(--ink-2);font-size:13px;margin-top:2px}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.m{display:flex;flex-direction:column;gap:2px;min-width:0}
+.m .k{font-size:12.5px;color:var(--ink-2)}
+.m .v{font:500 30px/1.1 var(--f-mono);font-variant-numeric:tabular-nums}
+.m .ci{font:13px var(--f-mono);color:var(--ink-2)}
+.m.ppv .v{color:var(--ppv)} .m.npv .v{color:var(--npv)}
+.bar{height:6px;background:var(--rule);border-radius:3px;position:relative;margin-top:6px}
+.bar i{position:absolute;top:0;bottom:0;border-radius:3px;opacity:.45}
+.bar b{position:absolute;top:-3px;width:3px;height:12px;border-radius:2px}
+.say{margin:0;max-width:72ch}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+@media (max-width:640px){.grid2{grid-template-columns:1fr}}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+.tt th,.tt td{border:1px solid var(--rule);padding:8px 10px;text-align:center;font-size:14px}
+.tt th{font-weight:500;color:var(--ink-2);font-size:12.5px;background:var(--bg)}
+.tt td{font-family:var(--f-mono)}
+.small{font-size:12.5px;color:var(--ink-2)}
+.flag{background:var(--warn-soft);color:var(--warn);border-radius:6px;padding:8px 12px;font-size:13px}
+.scroll{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--panel)}
+.all th,.all td{padding:7px 10px;border-bottom:1px solid var(--rule);text-align:right;font-size:13px;white-space:nowrap}
+.all th{color:var(--ink-2);font-weight:500;position:sticky;top:0;background:var(--panel)}
+.all td:first-child,.all th:first-child,.all td:nth-child(2),.all th:nth-child(2){text-align:left}
+.all td{font-family:var(--f-mono)} .all td:first-child,.all td:nth-child(2){font-family:var(--f-body)}
+.all tr.sel td{background:var(--accent-soft)}
+h3{font:600 16px var(--f-display);margin:0}
+footer{color:var(--ink-2);font-size:13px;display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--rule);padding-top:16px}
+footer code{font-family:var(--f-mono);font-size:12px}
+a{color:var(--accent)}
+</style>
+
+<div class="wrap">
+  <!--DRAFT_BANNER-->
+  <header>
+    <div class="eyebrow">Benchmark __VERSION__ · AMRFinderPlus vs. lab susceptibility</div>
+    <h1>When a rapid panel calls a resistance gene, how often does the lab result agree?</h1>
+    <p>Choose a panel target, drug and organism. Results come from __NBENCH__ U.S. human clinical isolates in NCBI Pathogen Detection with a genome and a submitted antibiogram, with MICs re-read against CLSI M100-Ed35 breakpoints.</p>
+  </header>
+
+  <div class="controls">
+    <label for="t">Panel target<select id="t"></select></label>
+    <label for="d">Drug<select id="d"></select></label>
+    <label for="o">Organism<select id="o"></select></label>
+    <label for="s">Isolates<select id="s"></select></label>
+    <label for="v">Intermediate results<select id="v">
+      <option value="main">Count I and SDD as not resistant</option>
+      <option value="sensitivity_excluding_intermediate">Leave I and SDD out</option></select></label>
+  </div>
+
+  <section class="slip" id="slip" aria-live="polite"></section>
+
+  <section style="display:flex;flex-direction:column;gap:10px">
+    <h3 id="allh">Every organism and drug for this target</h3>
+    <div class="scroll"><table class="all" id="all"></table></div>
+    <div class="small">Click a row to open it above. PPV: share of gene-positive isolates that tested resistant. NPV: share of gene-negative isolates that did not test resistant. 95% intervals are Wilson score intervals.</div>
+  </section>
+
+  <footer>
+    <div><strong>Cite:</strong> Abdulwahab F. U.S. Rapid Panel Resistance Marker Concordance Benchmark, __VERSION__. Zenodo. __DOI__</div>
+    <div>Sources: NCBI Pathogen Detection (AMRFinderPlus __AMRV__, database __DBV__) and NCBI BioSample antibiograms, accessed __DATE__. Code, data, codebook and limitations: <a href="__REPO__">__REPO__</a></div>
+    <div>Not a diagnostic device and not a statement about any commercial panel's performance. Panel allele coverage depends on each manufacturer's instructions for use.</div>
+  </footer>
+</div>
+
+<script>
+const ROWS = __DATA__;
+const $ = id => document.getElementById(id);
+const uniq = a => [...new Set(a)];
+const pct = x => x == null ? "–" : (x * 100).toFixed(1) + "%";
+// interval bounds: never let rounding show an upper bound below 100% as "100.0%"
+const pctCI = x => x == null ? "–" : (x < 1 && (x * 100).toFixed(1) === "100.0") ? (Math.floor(x * 10000) / 100).toFixed(2) + "%" : pct(x);
+function opts(sel, vals, keep){ const cur = keep ?? sel.value; sel.innerHTML = vals.map(v => `<option>${v}</option>`).join(""); if (vals.includes(cur)) sel.value = cur; }
+const ORDER_T = ["mecA","mecC","mecA or mecC","vanA","vanB","vanA or vanB","KPC","NDM","OXA-48-like","VIM","IMP","any panel carbapenemase (KPC, NDM, OXA-48-like, VIM, IMP)","CTX-M"];
+function pool(){ return ROWS.filter(r => r.analysis_version === $("v").value && r.isolate_subset === $("s").value); }
+function refresh(level){
+  const p = pool();
+  if (level <= 0) opts($("t"), ORDER_T.filter(t => p.some(r => r.panel_target === t)));
+  const pt = p.filter(r => r.panel_target === $("t").value);
+  if (level <= 1) opts($("d"), uniq(pt.map(r => r.drug)));
+  const pd = pt.filter(r => r.drug === $("d").value);
+  if (level <= 2) opts($("o"), uniq(pd.map(r => r.organism)));
+  render();
+}
+function bar(m, color){ if (m.p == null) return ""; return `<div class="bar"><i style="left:${m.lo*100}%;width:${(m.hi-m.lo)*100}%;background:${color}"></i><b style="left:calc(${m.p*100}% - 1.5px);background:${color}"></b></div>`; }
+function render(){
+  const r = pool().find(x => x.panel_target === $("t").value && x.drug === $("d").value && x.organism === $("o").value);
+  const slip = $("slip");
+  if (!r){ slip.innerHTML = `<p class="say">No isolates for this combination in this subset.</p>`; table(); return; }
+  const gp = r.gene_pos_R + r.gene_pos_notR, gn = r.gene_neg_R + r.gene_neg_notR;
+  const flags = [];
+  if (gp < 10) flags.push(`Only ${gp} gene-positive isolate${gp===1?"":"s"}; treat the PPV as a rough estimate.`);
+  if (r.level === "gene" && ["KPC","NDM","OXA-48-like","VIM","IMP"].includes(r.panel_target)) flags.push("For a single carbapenemase, the NPV counts isolates carrying a different carbapenemase as 'gene not detected'. Use the 'any panel carbapenemase' target to judge what a fully negative panel means.");
+  const M = (k) => ({p:r[k], lo:r[k+"_lo95"], hi:r[k+"_hi95"]});
+  slip.innerHTML = `
+    <div><h2>${r.panel_target} · ${r.drug}</h2><div class="sub">${r.organism} · ${r.isolate_subset} · n = ${r.n}</div></div>
+    <div class="metrics">
+      <div class="m ppv"><span class="k">Gene detected → resistant (PPV)</span><span class="v">${pct(r.ppv)}</span><span class="ci">95% CI ${pctCI(r.ppv_lo95)}–${pctCI(r.ppv_hi95)} · ${r.gene_pos_R}/${gp}</span>${bar(M("ppv"),"var(--ppv)")}</div>
+      <div class="m npv"><span class="k">Gene not detected → not resistant (NPV)</span><span class="v">${pct(r.npv)}</span><span class="ci">95% CI ${pctCI(r.npv_lo95)}–${pctCI(r.npv_hi95)} · ${r.gene_neg_notR}/${gn}</span>${bar(M("npv"),"var(--npv)")}</div>
+      <div class="m"><span class="k">Sensitivity / specificity</span><span class="v" style="font-size:22px">${pct(r.sensitivity)} / ${pct(r.specificity)}</span><span class="ci">resistant isolates with the gene / non-resistant without it</span></div>
+    </div>
+    <p class="say">${gp ? `Of ${gp} isolates where AMRFinderPlus found ${r.panel_target}, ${r.gene_pos_R} tested resistant to ${r.drug}.` : `No isolate carried ${r.panel_target}.`} Of ${gn} isolates without it, ${r.gene_neg_notR} did not test resistant and ${r.gene_neg_R} did.</p>
+    ${flags.map(f => `<div class="flag">${f}</div>`).join("")}
+    <div class="grid2">
+      <table class="tt"><tr><th></th><th>Resistant</th><th>Not resistant</th></tr>
+        <tr><th>Gene detected</th><td>${r.gene_pos_R}</td><td>${r.gene_pos_notR}</td></tr>
+        <tr><th>Gene not detected</th><td>${r.gene_neg_R}</td><td>${r.gene_neg_notR}</td></tr></table>
+      <div class="small">Every off-diagonal isolate is listed, with its likely cause, in <code>data/processed/discordance_cases.csv</code>. Categorical agreement: ${pct(r.categorical_agreement)}.</div>
+    </div>`;
+  table();
+}
+function table(){
+  const t = $("t").value, rows = pool().filter(r => r.panel_target === t);
+  $("allh").textContent = `Every organism and drug for ${t}`;
+  $("all").innerHTML = `<thead><tr><th>Organism</th><th>Drug</th><th>n</th><th>Gene+</th><th>PPV</th><th>NPV</th><th>Sens.</th><th>Spec.</th></tr></thead><tbody>` +
+    rows.map((r,i) => `<tr data-i="${i}" class="${r.drug===$("d").value&&r.organism===$("o").value?"sel":""}" style="cursor:pointer"><td>${r.organism}</td><td>${r.drug}</td><td>${r.n}</td><td>${r.gene_pos_R+r.gene_pos_notR}</td><td>${pct(r.ppv)}</td><td>${pct(r.npv)}</td><td>${pct(r.sensitivity)}</td><td>${pct(r.specificity)}</td></tr>`).join("") + "</tbody>";
+  $("all").querySelectorAll("tbody tr").forEach(tr => tr.onclick = () => { const r = rows[+tr.dataset.i]; $("d").value = r.drug; refresh(2); $("o").value = r.organism; render(); window.scrollTo({top:0,behavior:"smooth"}); });
+}
+opts($("s"), uniq(ROWS.filter(r=>r.analysis_version==="main").map(r => r.isolate_subset)));
+$("t").onchange = () => refresh(1); $("d").onchange = () => refresh(2); $("o").onchange = render;
+$("s").onchange = () => refresh(0); $("v").onchange = () => { opts($("s"), uniq(ROWS.filter(r=>r.analysis_version===$("v").value).map(r=>r.isolate_subset))); refresh(0); };
+refresh(0); $("t").value = "mecA"; refresh(1); $("d").value = "oxacillin or cefoxitin"; refresh(2);
+</script>

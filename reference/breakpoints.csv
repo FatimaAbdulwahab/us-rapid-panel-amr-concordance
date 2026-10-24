@@ -1,0 +1,20 @@
+bp_group,drug,method,units,susceptible,resistant,non_resistant_category_between,source,fda_status_note
+Enterobacterales,imipenem,MIC,mg/L,<=1,>=4,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,meropenem,MIC,mg/L,<=1,>=4,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,ertapenem,MIC,mg/L,<=0.5,>=2,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,doripenem,MIC,mg/L,<=1,>=4,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,ceftriaxone,MIC,mg/L,<=1,>=4,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,cefotaxime,MIC,mg/L,<=1,>=4,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,ceftazidime,MIC,mg/L,<=4,>=16,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,imipenem,DISK,mm,>=23,<=19,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,meropenem,DISK,mm,>=23,<=19,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,ertapenem,DISK,mm,>=22,<=18,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,doripenem,DISK,mm,>=23,<=19,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,ceftriaxone,DISK,mm,>=23,<=19,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,cefotaxime,DISK,mm,>=26,<=22,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterobacterales,ceftazidime,DISK,mm,>=21,<=17,I,CLSI M100-Ed35 (2025) Table 2A,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Staphylococcus_aureus,oxacillin,MIC,mg/L,<=2,>=4,none,CLSI M100-Ed35 (2025) Table 2C,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Staphylococcus_aureus,cefoxitin,MIC,mg/L,<=4,>=8,none,CLSI M100-Ed35 (2025) Table 2C (cefoxitin as surrogate for mecA-mediated oxacillin resistance),FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Staphylococcus_aureus,cefoxitin,DISK,mm,>=22,<=21,none,CLSI M100-Ed35 (2025) Table 2C (cefoxitin disk surrogate),FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterococcus,vancomycin,MIC,mg/L,<=4,>=32,I,CLSI M100-Ed35 (2025) Table 2D,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24
+Enterococcus,vancomycin,DISK,mm,>=17,<=14,I,CLSI M100-Ed35 (2025) Table 2D,FDA STIC recognizes CLSI M100 for this pair; confirmed by the author against CLSI M100-Ed35 and FDA STIC on 2026-10-24

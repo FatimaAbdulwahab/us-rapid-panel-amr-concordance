@@ -1,0 +1,965 @@
+amrfinder_symbol,panel_target,target_drug_class,hierarchy_family_node,match_flag,catalog_class,catalog_subclass,product_name,refgene_db_version
+mecA,mecA,methicillin,mecA,EXACT_TARGET,BETA-LACTAM,METHICILLIN,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA,2026-08-07.1
+mecA-ceftar,mecA,methicillin,mecA,VARIANT_SUBTYPE,BETA-LACTAM,CEFTAROLINE/METHICILLIN,ceftaroline-resistant PBP2a family peptidoglycan transpeptidase MecA,2026-08-07.1
+mecC,mecC,methicillin,mecC,EXACT_TARGET,BETA-LACTAM,METHICILLIN,PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecC,2026-08-07.1
+vanA,vanA,vancomycin,vanA,EXACT_TARGET,GLYCOPEPTIDE,VANCOMYCIN,D-alanine--(R)-lactate ligase VanA,2026-08-07.1
+vanB,vanB,vancomycin,vanB,EXACT_TARGET,GLYCOPEPTIDE,VANCOMYCIN,D-alanine--(R)-lactate ligase VanB,2026-08-07.1
+blaKPC,KPC,carbapenem,blaKPC,FAMILY_UNTYPED,BETA-LACTAM,CARBAPENEM,KPC family carbapenem-hydrolyzing class A beta-lactamase,2026-08-07.1
+blaKPC-10,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-10,2026-08-07.1
+blaKPC-100,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-100,2026-08-07.1
+blaKPC-101,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-101,2026-08-07.1
+blaKPC-102,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-102,2026-08-07.1
+blaKPC-103,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-103,2026-08-07.1
+blaKPC-104,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-104,2026-08-07.1
+blaKPC-105,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-105,2026-08-07.1
+blaKPC-106,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-106,2026-08-07.1
+blaKPC-107,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-107,2026-08-07.1
+blaKPC-108,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-108,2026-08-07.1
+blaKPC-109,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-109,2026-08-07.1
+blaKPC-11,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-11,2026-08-07.1
+blaKPC-110,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant class A beta-lactamase KPC-110,2026-08-07.1
+blaKPC-111,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant class A beta-lactamase KPC-111,2026-08-07.1
+blaKPC-112,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-112,2026-08-07.1
+blaKPC-113,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-113,2026-08-07.1
+blaKPC-114,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-114,2026-08-07.1
+blaKPC-115,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant class A beta-lactamase KPC-115,2026-08-07.1
+blaKPC-116,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-116,2026-08-07.1
+blaKPC-117,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-117,2026-08-07.1
+blaKPC-118,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-118,2026-08-07.1
+blaKPC-119,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-119,2026-08-07.1
+blaKPC-12,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase KPC-12,2026-08-07.1
+blaKPC-120,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-120,2026-08-07.1
+blaKPC-121,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-121,2026-08-07.1
+blaKPC-122,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-122,2026-08-07.1
+blaKPC-123,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-123,2026-08-07.1
+blaKPC-124,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-124,2026-08-07.1
+blaKPC-125,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-125,2026-08-07.1
+blaKPC-126,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-126,2026-08-07.1
+blaKPC-127,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-127,2026-08-07.1
+blaKPC-128,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-128,2026-08-07.1
+blaKPC-129,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-129,2026-08-07.1
+blaKPC-13,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-13,2026-08-07.1
+blaKPC-130,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-130,2026-08-07.1
+blaKPC-131,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-131,2026-08-07.1
+blaKPC-132,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-132,2026-08-07.1
+blaKPC-133,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-133,2026-08-07.1
+blaKPC-134,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-134,2026-08-07.1
+blaKPC-135,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-135,2026-08-07.1
+blaKPC-136,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-136,2026-08-07.1
+blaKPC-137,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-137,2026-08-07.1
+blaKPC-138,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-138,2026-08-07.1
+blaKPC-139,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-139,2026-08-07.1
+blaKPC-14,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-14,2026-08-07.1
+blaKPC-140,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-140,2026-08-07.1
+blaKPC-141,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-141,2026-08-07.1
+blaKPC-142,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-142,2026-08-07.1
+blaKPC-143,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-143,2026-08-07.1
+blaKPC-144,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-144,2026-08-07.1
+blaKPC-145,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-145,2026-08-07.1
+blaKPC-146,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-146,2026-08-07.1
+blaKPC-147,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-147,2026-08-07.1
+blaKPC-148,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-148,2026-08-07.1
+blaKPC-149,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-149,2026-08-07.1
+blaKPC-15,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-15,2026-08-07.1
+blaKPC-150,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-150,2026-08-07.1
+blaKPC-151,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-151,2026-08-07.1
+blaKPC-152,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-152,2026-08-07.1
+blaKPC-153,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-153,2026-08-07.1
+blaKPC-154,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-154,2026-08-07.1
+blaKPC-155,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant class A beta-lactamase KPC-155,2026-08-07.1
+blaKPC-156,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-156,2026-08-07.1
+blaKPC-157,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-157,2026-08-07.1
+blaKPC-158,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-158,2026-08-07.1
+blaKPC-159,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-159,2026-08-07.1
+blaKPC-16,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-16,2026-08-07.1
+blaKPC-160,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/CEFIDEROCOL,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-160,2026-08-07.1
+blaKPC-161,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-161,2026-08-07.1
+blaKPC-162,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-162,2026-08-07.1
+blaKPC-163,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-163,2026-08-07.1
+blaKPC-164,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-164,2026-08-07.1
+blaKPC-165,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-165,2026-08-07.1
+blaKPC-166,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-166,2026-08-07.1
+blaKPC-167,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-167,2026-08-07.1
+blaKPC-168,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-168,2026-08-07.1
+blaKPC-169,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-169,2026-08-07.1
+blaKPC-17,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-17,2026-08-07.1
+blaKPC-170,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-170,2026-08-07.1
+blaKPC-171,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-171,2026-08-07.1
+blaKPC-172,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-172,2026-08-07.1
+blaKPC-173,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-173,2026-08-07.1
+blaKPC-174,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-174,2026-08-07.1
+blaKPC-175,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-175,2026-08-07.1
+blaKPC-176,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-176,2026-08-07.1
+blaKPC-177,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-177,2026-08-07.1
+blaKPC-178,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-178,2026-08-07.1
+blaKPC-179,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-179,2026-08-07.1
+blaKPC-18,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-18,2026-08-07.1
+blaKPC-180,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-180,2026-08-07.1
+blaKPC-181,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-181,2026-08-07.1
+blaKPC-182,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-182,2026-08-07.1
+blaKPC-183,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-183,2026-08-07.1
+blaKPC-184,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-184,2026-08-07.1
+blaKPC-185,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-185,2026-08-07.1
+blaKPC-186,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-186,2026-08-07.1
+blaKPC-187,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-187,2026-08-07.1
+blaKPC-188,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-188,2026-08-07.1
+blaKPC-189,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-189,2026-08-07.1
+blaKPC-19,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-19,2026-08-07.1
+blaKPC-190,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-190,2026-08-07.1
+blaKPC-191,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-191,2026-08-07.1
+blaKPC-192,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-192,2026-08-07.1
+blaKPC-193,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-193,2026-08-07.1
+blaKPC-194,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-194,2026-08-07.1
+blaKPC-195,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-195,2026-08-07.1
+blaKPC-196,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-196,2026-08-07.1
+blaKPC-197,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-197,2026-08-07.1
+blaKPC-199,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-199,2026-08-07.1
+blaKPC-2,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-2,2026-08-07.1
+blaKPC-20,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-20,2026-08-07.1
+blaKPC-200,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-200,2026-08-07.1
+blaKPC-201,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-201,2026-08-07.1
+blaKPC-202,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-202,2026-08-07.1
+blaKPC-203,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-203,2026-08-07.1
+blaKPC-204,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-204,2026-08-07.1
+blaKPC-205,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-205,2026-08-07.1
+blaKPC-206,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-206,2026-08-07.1
+blaKPC-207,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-207,2026-08-07.1
+blaKPC-208,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-208,2026-08-07.1
+blaKPC-209,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-209,2026-08-07.1
+blaKPC-21,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/CEFTIBUTEN-AVIBACTAM,carbapenem-hydrolyzing class A beta-lactamase KPC-21,2026-08-07.1
+blaKPC-210,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-210,2026-08-07.1
+blaKPC-211,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-211,2026-08-07.1
+blaKPC-212,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-212,2026-08-07.1
+blaKPC-213,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-213,2026-08-07.1
+blaKPC-214,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-214,2026-08-07.1
+blaKPC-215,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-215,2026-08-07.1
+blaKPC-216,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-216,2026-08-07.1
+blaKPC-217,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-217,2026-08-07.1
+blaKPC-218,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-218,2026-08-07.1
+blaKPC-219,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-219,2026-08-07.1
+blaKPC-22,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-22,2026-08-07.1
+blaKPC-220,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-220,2026-08-07.1
+blaKPC-221,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-221,2026-08-07.1
+blaKPC-222,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-222,2026-08-07.1
+blaKPC-223,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-223,2026-08-07.1
+blaKPC-224,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-224,2026-08-07.1
+blaKPC-225,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-225,2026-08-07.1
+blaKPC-226,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-226,2026-08-07.1
+blaKPC-227,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-227,2026-08-07.1
+blaKPC-228,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-228,2026-08-07.1
+blaKPC-229,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-229,2026-08-07.1
+blaKPC-23,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-23,2026-08-07.1
+blaKPC-230,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-230,2026-08-07.1
+blaKPC-231,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-231,2026-08-07.1
+blaKPC-232,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-232,2026-08-07.1
+blaKPC-233,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-233,2026-08-07.1
+blaKPC-234,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-234,2026-08-07.1
+blaKPC-236,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-236,2026-08-07.1
+blaKPC-237,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-237,2026-08-07.1
+blaKPC-238,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-238,2026-08-07.1
+blaKPC-239,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-239,2026-08-07.1
+blaKPC-24,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-24,2026-08-07.1
+blaKPC-240,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-240,2026-08-07.1
+blaKPC-241,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-241,2026-08-07.1
+blaKPC-242,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-242,2026-08-07.1
+blaKPC-243,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-243,2026-08-07.1
+blaKPC-244,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-244,2026-08-07.1
+blaKPC-245,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-245,2026-08-07.1
+blaKPC-246,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-246,2026-08-07.1
+blaKPC-247,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-247,2026-08-07.1
+blaKPC-248,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-248,2026-08-07.1
+blaKPC-249,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-249,2026-08-07.1
+blaKPC-25,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-25,2026-08-07.1
+blaKPC-250,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-250,2026-08-07.1
+blaKPC-251,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-251,2026-08-07.1
+blaKPC-252,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-252,2026-08-07.1
+blaKPC-255,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-255,2026-08-07.1
+blaKPC-256,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-256,2026-08-07.1
+blaKPC-257,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-257,2026-08-07.1
+blaKPC-258,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-258,2026-08-07.1
+blaKPC-259,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-259,2026-08-07.1
+blaKPC-26,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-26,2026-08-07.1
+blaKPC-260,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-260,2026-08-07.1
+blaKPC-261,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-261,2026-08-07.1
+blaKPC-262,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-262,2026-08-07.1
+blaKPC-263,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-263,2026-08-07.1
+blaKPC-264,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-264,2026-08-07.1
+blaKPC-265,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-265,2026-08-07.1
+blaKPC-266,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-266,2026-08-07.1
+blaKPC-267,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant class A beta-lactamase KPC-267,2026-08-07.1
+blaKPC-268,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant class A beta-lactamase KPC-268,2026-08-07.1
+blaKPC-269,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-269,2026-08-07.1
+blaKPC-27,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/CEFTIBUTEN-AVIBACTAM,carbapenem-hydrolyzing class A beta-lactamase KPC-27,2026-08-07.1
+blaKPC-270,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-270,2026-08-07.1
+blaKPC-271,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-271,2026-08-07.1
+blaKPC-272,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-272,2026-08-07.1
+blaKPC-273,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-273,2026-08-07.1
+blaKPC-274,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-274,2026-08-07.1
+blaKPC-275,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-275,2026-08-07.1
+blaKPC-276,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-276,2026-08-07.1
+blaKPC-277,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-277,2026-08-07.1
+blaKPC-278,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-278,2026-08-07.1
+blaKPC-279,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-279,2026-08-07.1
+blaKPC-28,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-28,2026-08-07.1
+blaKPC-280,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-280,2026-08-07.1
+blaKPC-281,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-281,2026-08-07.1
+blaKPC-282,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-282,2026-08-07.1
+blaKPC-283,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-283,2026-08-07.1
+blaKPC-284,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-284,2026-08-07.1
+blaKPC-285,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-285,2026-08-07.1
+blaKPC-286,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-286,2026-08-07.1
+blaKPC-287,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-287,2026-08-07.1
+blaKPC-288,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-288,2026-08-07.1
+blaKPC-289,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-289,2026-08-07.1
+blaKPC-29,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-29,2026-08-07.1
+blaKPC-290,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-290,2026-08-07.1
+blaKPC-291,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-291,2026-08-07.1
+blaKPC-292,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-292,2026-08-07.1
+blaKPC-293,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-293,2026-08-07.1
+blaKPC-294,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-294,2026-08-07.1
+blaKPC-295,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-295,2026-08-07.1
+blaKPC-296,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-296,2026-08-07.1
+blaKPC-297,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-297,2026-08-07.1
+blaKPC-298,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-298,2026-08-07.1
+blaKPC-299,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-299,2026-08-07.1
+blaKPC-3,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-3,2026-08-07.1
+blaKPC-30,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-30,2026-08-07.1
+blaKPC-300,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-300,2026-08-07.1
+blaKPC-301,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-301,2026-08-07.1
+blaKPC-31,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEFIDEROCOL/CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-31,2026-08-07.1
+blaKPC-32,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-32,2026-08-07.1
+blaKPC-33,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-33,2026-08-07.1
+blaKPC-34,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-34,2026-08-07.1
+blaKPC-35,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEFIDEROCOL/CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-35,2026-08-07.1
+blaKPC-36,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-36,2026-08-07.1
+blaKPC-37,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-37,2026-08-07.1
+blaKPC-38,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-38,2026-08-07.1
+blaKPC-39,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-39,2026-08-07.1
+blaKPC-4,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-4,2026-08-07.1
+blaKPC-40,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-40,2026-08-07.1
+blaKPC-41,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-41,2026-08-07.1
+blaKPC-42,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-42,2026-08-07.1
+blaKPC-43,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-43,2026-08-07.1
+blaKPC-44,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-44,2026-08-07.1
+blaKPC-45,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-45,2026-08-07.1
+blaKPC-46,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-46,2026-08-07.1
+blaKPC-47,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-47,2026-08-07.1
+blaKPC-48,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-48,2026-08-07.1
+blaKPC-49,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-49,2026-08-07.1
+blaKPC-5,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-5,2026-08-07.1
+blaKPC-50,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-50,2026-08-07.1
+blaKPC-51,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-51,2026-08-07.1
+blaKPC-52,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-52,2026-08-07.1
+blaKPC-53,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-53,2026-08-07.1
+blaKPC-54,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-54,2026-08-07.1
+blaKPC-55,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-55,2026-08-07.1
+blaKPC-56,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-56,2026-08-07.1
+blaKPC-57,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-57,2026-08-07.1
+blaKPC-58,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant class A beta-lactamase KPC-58,2026-08-07.1
+blaKPC-59,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-59,2026-08-07.1
+blaKPC-6,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-6,2026-08-07.1
+blaKPC-60,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-60,2026-08-07.1
+blaKPC-61,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-61,2026-08-07.1
+blaKPC-62,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEFIDEROCOL/CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-62,2026-08-07.1
+blaKPC-63,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-63,2026-08-07.1
+blaKPC-64,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-64,2026-08-07.1
+blaKPC-65,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-65,2026-08-07.1
+blaKPC-66,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-66,2026-08-07.1
+blaKPC-67,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-67,2026-08-07.1
+blaKPC-68,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-68,2026-08-07.1
+blaKPC-69,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-69,2026-08-07.1
+blaKPC-7,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-7,2026-08-07.1
+blaKPC-70,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-70,2026-08-07.1
+blaKPC-71,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-71,2026-08-07.1
+blaKPC-72,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-72,2026-08-07.1
+blaKPC-73,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-73,2026-08-07.1
+blaKPC-74,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-74,2026-08-07.1
+blaKPC-75,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-75,2026-08-07.1
+blaKPC-76,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-76,2026-08-07.1
+blaKPC-77,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-77,2026-08-07.1
+blaKPC-78,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-78,2026-08-07.1
+blaKPC-79,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-79,2026-08-07.1
+blaKPC-8,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-8,2026-08-07.1
+blaKPC-80,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-80,2026-08-07.1
+blaKPC-81,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-81,2026-08-07.1
+blaKPC-82,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-82,2026-08-07.1
+blaKPC-83,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-83,2026-08-07.1
+blaKPC-84,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-84,2026-08-07.1
+blaKPC-85,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-85,2026-08-07.1
+blaKPC-86,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-86,2026-08-07.1
+blaKPC-87,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-87,2026-08-07.1
+blaKPC-88,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-88,2026-08-07.1
+blaKPC-89,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-89,2026-08-07.1
+blaKPC-90,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-90,2026-08-07.1
+blaKPC-91,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-91,2026-08-07.1
+blaKPC-92,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-92,2026-08-07.1
+blaKPC-93,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-93,2026-08-07.1
+blaKPC-94,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-94,2026-08-07.1
+blaKPC-95,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase KPC-95,2026-08-07.1
+blaKPC-96,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-96,2026-08-07.1
+blaKPC-97,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,class A beta-lactamase KPC-97,2026-08-07.1
+blaKPC-98,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,carbapenem-hydrolyzing class A beta-lactamase KPC-98,2026-08-07.1
+blaKPC-99,KPC,carbapenem,blaKPC,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,inhibitor-resistant carbapenem-hydrolyzing class A beta-lactamase KPC-99,2026-08-07.1
+blaNDM,NDM,carbapenem,blaNDM,FAMILY_UNTYPED,BETA-LACTAM,CARBAPENEM,NDM family subclass B1 metallo-beta-lactamase,2026-08-07.1
+blaNDM-1,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-1,2026-08-07.1
+blaNDM-10,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-10,2026-08-07.1
+blaNDM-11,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-11,2026-08-07.1
+blaNDM-12,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-12,2026-08-07.1
+blaNDM-13,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-13,2026-08-07.1
+blaNDM-14,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-14,2026-08-07.1
+blaNDM-15,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-15,2026-08-07.1
+blaNDM-16a,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-16a,2026-08-07.1
+blaNDM-16b,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-16b,2026-08-07.1
+blaNDM-17,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-17,2026-08-07.1
+blaNDM-18,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-18,2026-08-07.1
+blaNDM-19,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-19,2026-08-07.1
+blaNDM-2,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-2,2026-08-07.1
+blaNDM-20,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-20,2026-08-07.1
+blaNDM-21,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-21,2026-08-07.1
+blaNDM-22,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-22,2026-08-07.1
+blaNDM-23,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-23,2026-08-07.1
+blaNDM-24,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-24,2026-08-07.1
+blaNDM-25,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-25,2026-08-07.1
+blaNDM-26,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-26,2026-08-07.1
+blaNDM-27,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-27,2026-08-07.1
+blaNDM-28,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-28,2026-08-07.1
+blaNDM-29,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-29,2026-08-07.1
+blaNDM-3,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-3,2026-08-07.1
+blaNDM-30,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/TANIBORBACTAM,taniborbactam-resistant subclass B1 metallo-beta-lactamase NDM-30,2026-08-07.1
+blaNDM-31,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-31,2026-08-07.1
+blaNDM-33,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-33,2026-08-07.1
+blaNDM-34,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-34,2026-08-07.1
+blaNDM-35,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-35,2026-08-07.1
+blaNDM-36,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-36,2026-08-07.1
+blaNDM-37,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-37,2026-08-07.1
+blaNDM-38,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-38,2026-08-07.1
+blaNDM-39,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-39,2026-08-07.1
+blaNDM-4,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-4,2026-08-07.1
+blaNDM-40,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-40,2026-08-07.1
+blaNDM-41,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-41,2026-08-07.1
+blaNDM-42,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-42,2026-08-07.1
+blaNDM-43,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-43,2026-08-07.1
+blaNDM-44,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-44,2026-08-07.1
+blaNDM-45,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-45,2026-08-07.1
+blaNDM-46,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-46,2026-08-07.1
+blaNDM-47,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-47,2026-08-07.1
+blaNDM-48,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-48,2026-08-07.1
+blaNDM-49,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-49,2026-08-07.1
+blaNDM-5,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-5,2026-08-07.1
+blaNDM-50,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-50,2026-08-07.1
+blaNDM-51,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-51,2026-08-07.1
+blaNDM-52,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-52,2026-08-07.1
+blaNDM-53,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-53,2026-08-07.1
+blaNDM-54,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-54,2026-08-07.1
+blaNDM-55,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-55,2026-08-07.1
+blaNDM-56,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-56,2026-08-07.1
+blaNDM-57,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-57,2026-08-07.1
+blaNDM-58,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-58,2026-08-07.1
+blaNDM-59,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-59,2026-08-07.1
+blaNDM-6,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-6,2026-08-07.1
+blaNDM-60,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-60,2026-08-07.1
+blaNDM-61,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-61,2026-08-07.1
+blaNDM-63,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-63,2026-08-07.1
+blaNDM-64,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-64,2026-08-07.1
+blaNDM-65,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-65,2026-08-07.1
+blaNDM-66,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-66,2026-08-07.1
+blaNDM-67,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-67,2026-08-07.1
+blaNDM-68,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-68,2026-08-07.1
+blaNDM-69,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-69,2026-08-07.1
+blaNDM-7,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-7,2026-08-07.1
+blaNDM-70,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-70,2026-08-07.1
+blaNDM-71,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-71,2026-08-07.1
+blaNDM-72,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-72,2026-08-07.1
+blaNDM-73,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-73,2026-08-07.1
+blaNDM-74,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-74,2026-08-07.1
+blaNDM-75,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-75,2026-08-07.1
+blaNDM-76,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-76,2026-08-07.1
+blaNDM-77,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-77,2026-08-07.1
+blaNDM-78,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-78,2026-08-07.1
+blaNDM-79,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-79,2026-08-07.1
+blaNDM-8,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-8,2026-08-07.1
+blaNDM-80,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-80,2026-08-07.1
+blaNDM-81,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-81,2026-08-07.1
+blaNDM-82,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-82,2026-08-07.1
+blaNDM-83,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-83,2026-08-07.1
+blaNDM-84,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-84,2026-08-07.1
+blaNDM-85,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-85,2026-08-07.1
+blaNDM-86,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-86,2026-08-07.1
+blaNDM-87,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-87,2026-08-07.1
+blaNDM-88,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-88,2026-08-07.1
+blaNDM-89,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-89,2026-08-07.1
+blaNDM-9,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/TANIBORBACTAM,taniborbactam-resistant subclass B1 metallo-beta-lactamase NDM-9,2026-08-07.1
+blaNDM-90,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-90,2026-08-07.1
+blaNDM-91,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-91,2026-08-07.1
+blaNDM-92,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-92,2026-08-07.1
+blaNDM-93,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-93,2026-08-07.1
+blaNDM-94,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-94,2026-08-07.1
+blaNDM-95,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-95,2026-08-07.1
+blaNDM-96,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-96,2026-08-07.1
+blaNDM-97,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-97,2026-08-07.1
+blaNDM-98,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-98,2026-08-07.1
+blaNDM-99,NDM,carbapenem,blaNDM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase NDM-99,2026-08-07.1
+blaOXA-1012,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1012,2026-08-07.1
+blaOXA-1038,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-1038,2026-08-07.1
+blaOXA-1039,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-1039,2026-08-07.1
+blaOXA-1055,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1055,2026-08-07.1
+blaOXA-1119,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1119,2026-08-07.1
+blaOXA-1146,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1146,2026-08-07.1
+blaOXA-1167,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1167,2026-08-07.1
+blaOXA-1181,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1181,2026-08-07.1
+blaOXA-1200,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1200,2026-08-07.1
+blaOXA-1201,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-1201,2026-08-07.1
+blaOXA-1205,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-1205,2026-08-07.1
+blaOXA-1207,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-1207,2026-08-07.1
+blaOXA-1211,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1211,2026-08-07.1
+blaOXA-1212,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1212,2026-08-07.1
+blaOXA-1213,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1213,2026-08-07.1
+blaOXA-1226,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1226,2026-08-07.1
+blaOXA-1240,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family extended-spectrum class D beta-lactamase OXA-1240,2026-08-07.1
+blaOXA-1242,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1242,2026-08-07.1
+blaOXA-1304,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1304,2026-08-07.1
+blaOXA-1305,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1305,2026-08-07.1
+blaOXA-1306,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1306,2026-08-07.1
+blaOXA-1307,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1307,2026-08-07.1
+blaOXA-1308,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1308,2026-08-07.1
+blaOXA-1309,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1309,2026-08-07.1
+blaOXA-1371,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1371,2026-08-07.1
+blaOXA-1382,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1382,2026-08-07.1
+blaOXA-1384,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1384,2026-08-07.1
+blaOXA-1385,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1385,2026-08-07.1
+blaOXA-1396,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1396,2026-08-07.1
+blaOXA-1398,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1398,2026-08-07.1
+blaOXA-1399,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family extended-spectrum class D beta-lactamase OXA-1399,2026-08-07.1
+blaOXA-1400,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1400,2026-08-07.1
+blaOXA-1420,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1420,2026-08-07.1
+blaOXA-1421,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1421,2026-08-07.1
+blaOXA-1431,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1431,2026-08-07.1
+blaOXA-1435,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1435,2026-08-07.1
+blaOXA-1450,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1450,2026-08-07.1
+blaOXA-1452,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1452,2026-08-07.1
+blaOXA-1477,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-1477,2026-08-07.1
+blaOXA-162,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-162,2026-08-07.1
+blaOXA-163,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family extended-spectrum class D beta-lactamase OXA-163,2026-08-07.1
+blaOXA-181,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-181,2026-08-07.1
+blaOXA-199,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-199,2026-08-07.1
+blaOXA-204,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-204,2026-08-07.1
+blaOXA-232,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-232,2026-08-07.1
+blaOXA-244,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-244,2026-08-07.1
+blaOXA-245,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-245,2026-08-07.1
+blaOXA-247,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family extended-spectrum class D beta-lactamase OXA-247,2026-08-07.1
+blaOXA-252,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-252,2026-08-07.1
+blaOXA-370,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-370,2026-08-07.1
+blaOXA-405,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family extended-spectrum class D beta-lactamase OXA-405,2026-08-07.1
+blaOXA-416,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-416,2026-08-07.1
+blaOXA-436,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-436,2026-08-07.1
+blaOXA-438,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-438,2026-08-07.1
+blaOXA-439,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family extended-spectrum class D beta-lactamase OXA-439,2026-08-07.1
+blaOXA-48,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-48,2026-08-07.1
+blaOXA-484,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-484,2026-08-07.1
+blaOXA-48_fam,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_UNTYPED,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase,2026-08-07.1
+blaOXA-505,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-505,2026-08-07.1
+blaOXA-514,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family class D beta-lactamase OXA-514,2026-08-07.1
+blaOXA-515,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family class D beta-lactamase OXA-515,2026-08-07.1
+blaOXA-517,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-517,2026-08-07.1
+blaOXA-519,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-519,2026-08-07.1
+blaOXA-535,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family class D beta-lactamase OXA-535,2026-08-07.1
+blaOXA-538,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-538,2026-08-07.1
+blaOXA-54,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family carbapenem-hydrolyzing class D beta-lactamase OXA-54,2026-08-07.1
+blaOXA-546,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-546,2026-08-07.1
+blaOXA-547,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family class D beta-lactamase OXA-547,2026-08-07.1
+blaOXA-566,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-566,2026-08-07.1
+blaOXA-567,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-567,2026-08-07.1
+blaOXA-731,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,BETA-LACTAM,OXA-48 family class D beta-lactamase OXA-731,2026-08-07.1
+blaOXA-788,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family class D beta-lactamase OXA-788,2026-08-07.1
+blaOXA-793,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-793,2026-08-07.1
+blaOXA-833,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-833,2026-08-07.1
+blaOXA-894,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,OXA-48 family class D beta-lactamase OXA-894,2026-08-07.1
+blaOXA-918,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-918,2026-08-07.1
+blaOXA-920,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-920,2026-08-07.1
+blaOXA-922,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-922,2026-08-07.1
+blaOXA-923,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-923,2026-08-07.1
+blaOXA-924,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-924,2026-08-07.1
+blaOXA-929,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-929,2026-08-07.1
+blaOXA-933,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-933,2026-08-07.1
+blaOXA-934,OXA-48-like,carbapenem,blaOXA-48_fam,FAMILY_MEMBER_NONCARBA,BETA-LACTAM,CEPHALOSPORIN,OXA-48 family class D beta-lactamase OXA-934,2026-08-07.1
+blaVIM,VIM,carbapenem,blaVIM,FAMILY_UNTYPED,BETA-LACTAM,CARBAPENEM,VIM family subclass B1 metallo-beta-lactamase,2026-08-07.1
+blaVIM-1,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-1,2026-08-07.1
+blaVIM-10,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-10,2026-08-07.1
+blaVIM-11,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-11,2026-08-07.1
+blaVIM-12,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-12,2026-08-07.1
+blaVIM-13,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-13,2026-08-07.1
+blaVIM-14,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-14,2026-08-07.1
+blaVIM-15,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-15,2026-08-07.1
+blaVIM-16,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-16,2026-08-07.1
+blaVIM-17,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-17,2026-08-07.1
+blaVIM-18,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/CEFEPIME-TANIBORBACTAM,subclass B1 metallo-beta-lactamase VIM-18,2026-08-07.1
+blaVIM-19,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-19,2026-08-07.1
+blaVIM-2,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-2,2026-08-07.1
+blaVIM-20,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-20,2026-08-07.1
+blaVIM-23,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-23,2026-08-07.1
+blaVIM-24,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-24,2026-08-07.1
+blaVIM-25,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-25,2026-08-07.1
+blaVIM-26,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-26,2026-08-07.1
+blaVIM-27,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-27,2026-08-07.1
+blaVIM-28,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-28,2026-08-07.1
+blaVIM-29,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-29,2026-08-07.1
+blaVIM-3,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-3,2026-08-07.1
+blaVIM-30,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-30,2026-08-07.1
+blaVIM-31,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-31,2026-08-07.1
+blaVIM-32,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-32,2026-08-07.1
+blaVIM-33,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-33,2026-08-07.1
+blaVIM-34,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-34,2026-08-07.1
+blaVIM-35,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-35,2026-08-07.1
+blaVIM-36,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-36,2026-08-07.1
+blaVIM-37,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-37,2026-08-07.1
+blaVIM-38,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-38,2026-08-07.1
+blaVIM-39,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-39,2026-08-07.1
+blaVIM-4,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-4,2026-08-07.1
+blaVIM-40,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-40,2026-08-07.1
+blaVIM-41,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-41,2026-08-07.1
+blaVIM-42,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-42,2026-08-07.1
+blaVIM-43,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-43,2026-08-07.1
+blaVIM-44,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-44,2026-08-07.1
+blaVIM-45,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-45,2026-08-07.1
+blaVIM-46,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-46,2026-08-07.1
+blaVIM-47,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-47,2026-08-07.1
+blaVIM-48,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-48,2026-08-07.1
+blaVIM-49,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-49,2026-08-07.1
+blaVIM-5,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-5,2026-08-07.1
+blaVIM-50,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-50,2026-08-07.1
+blaVIM-51,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-51,2026-08-07.1
+blaVIM-52,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-52,2026-08-07.1
+blaVIM-53,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-53,2026-08-07.1
+blaVIM-54,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-54,2026-08-07.1
+blaVIM-55,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-55,2026-08-07.1
+blaVIM-56,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-56,2026-08-07.1
+blaVIM-57,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-57,2026-08-07.1
+blaVIM-58,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-58,2026-08-07.1
+blaVIM-59,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-59,2026-08-07.1
+blaVIM-6,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-6,2026-08-07.1
+blaVIM-60,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-60,2026-08-07.1
+blaVIM-61,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-61,2026-08-07.1
+blaVIM-62,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-62,2026-08-07.1
+blaVIM-63,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-63,2026-08-07.1
+blaVIM-64,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-64,2026-08-07.1
+blaVIM-65,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-65,2026-08-07.1
+blaVIM-66,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-66,2026-08-07.1
+blaVIM-67,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-67,2026-08-07.1
+blaVIM-68,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-68,2026-08-07.1
+blaVIM-69,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-69,2026-08-07.1
+blaVIM-7,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-7,2026-08-07.1
+blaVIM-70,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-70,2026-08-07.1
+blaVIM-71,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-71,2026-08-07.1
+blaVIM-72,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-72,2026-08-07.1
+blaVIM-73,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-73,2026-08-07.1
+blaVIM-74,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-74,2026-08-07.1
+blaVIM-75,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-75,2026-08-07.1
+blaVIM-76,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-76,2026-08-07.1
+blaVIM-77,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-77,2026-08-07.1
+blaVIM-78,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-78,2026-08-07.1
+blaVIM-79,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-79,2026-08-07.1
+blaVIM-8,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-8,2026-08-07.1
+blaVIM-80,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-80,2026-08-07.1
+blaVIM-81,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-81,2026-08-07.1
+blaVIM-82,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-82,2026-08-07.1
+blaVIM-83,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/TANIBORBACTAM,taniborbactam-resistant subclass B1 metallo-beta-lactamase VIM-83,2026-08-07.1
+blaVIM-84,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-84,2026-08-07.1
+blaVIM-85,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-85,2026-08-07.1
+blaVIM-86,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-86,2026-08-07.1
+blaVIM-87,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-87,2026-08-07.1
+blaVIM-88,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-88,2026-08-07.1
+blaVIM-89,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-89,2026-08-07.1
+blaVIM-9,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-9,2026-08-07.1
+blaVIM-90,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-90,2026-08-07.1
+blaVIM-91,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-91,2026-08-07.1
+blaVIM-92,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-92,2026-08-07.1
+blaVIM-93,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-93,2026-08-07.1
+blaVIM-94,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-94,2026-08-07.1
+blaVIM-95,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-95,2026-08-07.1
+blaVIM-96,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-96,2026-08-07.1
+blaVIM-97,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-97,2026-08-07.1
+blaVIM-98,VIM,carbapenem,blaVIM,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase VIM-98,2026-08-07.1
+blaIMP,IMP,carbapenem,blaIMP,FAMILY_UNTYPED,BETA-LACTAM,CARBAPENEM,IMP family subclass B1 metallo-beta-lactamase,2026-08-07.1
+blaIMP-1,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-1,2026-08-07.1
+blaIMP-10,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM/XERUBORBACTAM,xeruborbactam-resistant subclass B1 metallo-beta-lactamase IMP-10,2026-08-07.1
+blaIMP-100,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-100,2026-08-07.1
+blaIMP-101,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-101,2026-08-07.1
+blaIMP-102,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-102,2026-08-07.1
+blaIMP-104,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-104,2026-08-07.1
+blaIMP-105,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-105,2026-08-07.1
+blaIMP-106,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-106,2026-08-07.1
+blaIMP-107,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-107,2026-08-07.1
+blaIMP-108,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-108,2026-08-07.1
+blaIMP-109,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-109,2026-08-07.1
+blaIMP-11,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-11,2026-08-07.1
+blaIMP-110,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-110,2026-08-07.1
+blaIMP-111,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-111,2026-08-07.1
+blaIMP-112,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-112,2026-08-07.1
+blaIMP-12,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-12,2026-08-07.1
+blaIMP-13,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-13,2026-08-07.1
+blaIMP-14,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-14,2026-08-07.1
+blaIMP-15,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-15,2026-08-07.1
+blaIMP-16,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-16,2026-08-07.1
+blaIMP-17,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-17,2026-08-07.1
+blaIMP-18,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-18,2026-08-07.1
+blaIMP-19,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-19,2026-08-07.1
+blaIMP-2,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-2,2026-08-07.1
+blaIMP-20,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-20,2026-08-07.1
+blaIMP-21,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-21,2026-08-07.1
+blaIMP-22,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-22,2026-08-07.1
+blaIMP-23,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-23,2026-08-07.1
+blaIMP-24,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-24,2026-08-07.1
+blaIMP-25,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-25,2026-08-07.1
+blaIMP-26,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 high level metallo-beta-lactamase IMP-26,2026-08-07.1
+blaIMP-27,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-27,2026-08-07.1
+blaIMP-28,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-28,2026-08-07.1
+blaIMP-29,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-29,2026-08-07.1
+blaIMP-3,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-3,2026-08-07.1
+blaIMP-30,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-30,2026-08-07.1
+blaIMP-31,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-31,2026-08-07.1
+blaIMP-32,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-32,2026-08-07.1
+blaIMP-33,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-33,2026-08-07.1
+blaIMP-34,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-34,2026-08-07.1
+blaIMP-35,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-35,2026-08-07.1
+blaIMP-36,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-36,2026-08-07.1
+blaIMP-37,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-37,2026-08-07.1
+blaIMP-38,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-38,2026-08-07.1
+blaIMP-39,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-39,2026-08-07.1
+blaIMP-4,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-4,2026-08-07.1
+blaIMP-40,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-40,2026-08-07.1
+blaIMP-41,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-41,2026-08-07.1
+blaIMP-42,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-42,2026-08-07.1
+blaIMP-43,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-43,2026-08-07.1
+blaIMP-44,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-44,2026-08-07.1
+blaIMP-45,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-45,2026-08-07.1
+blaIMP-46,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-46,2026-08-07.1
+blaIMP-48,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-48,2026-08-07.1
+blaIMP-49,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-49,2026-08-07.1
+blaIMP-5,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-5,2026-08-07.1
+blaIMP-50,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-50,2026-08-07.1
+blaIMP-51,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-51,2026-08-07.1
+blaIMP-52,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-52,2026-08-07.1
+blaIMP-53,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-53,2026-08-07.1
+blaIMP-54,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-54,2026-08-07.1
+blaIMP-55,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-55,2026-08-07.1
+blaIMP-56,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-56,2026-08-07.1
+blaIMP-58,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-58,2026-08-07.1
+blaIMP-59,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-59,2026-08-07.1
+blaIMP-6,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-6,2026-08-07.1
+blaIMP-60,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-60,2026-08-07.1
+blaIMP-61,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-61,2026-08-07.1
+blaIMP-62,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-62,2026-08-07.1
+blaIMP-63,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-63,2026-08-07.1
+blaIMP-64,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-64,2026-08-07.1
+blaIMP-65,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-65,2026-08-07.1
+blaIMP-66,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-66,2026-08-07.1
+blaIMP-67,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-67,2026-08-07.1
+blaIMP-68,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-68,2026-08-07.1
+blaIMP-69,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-69,2026-08-07.1
+blaIMP-7,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-7,2026-08-07.1
+blaIMP-70,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-70,2026-08-07.1
+blaIMP-71,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-71,2026-08-07.1
+blaIMP-73,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-73,2026-08-07.1
+blaIMP-74,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-74,2026-08-07.1
+blaIMP-75,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-75,2026-08-07.1
+blaIMP-76,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-76,2026-08-07.1
+blaIMP-77,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-77,2026-08-07.1
+blaIMP-78,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-78,2026-08-07.1
+blaIMP-79,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-79,2026-08-07.1
+blaIMP-8,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-8,2026-08-07.1
+blaIMP-80,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-80,2026-08-07.1
+blaIMP-81,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-81,2026-08-07.1
+blaIMP-82,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-82,2026-08-07.1
+blaIMP-83,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-83,2026-08-07.1
+blaIMP-84,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-84,2026-08-07.1
+blaIMP-85,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-85,2026-08-07.1
+blaIMP-86,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-86,2026-08-07.1
+blaIMP-87,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-87,2026-08-07.1
+blaIMP-88,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-88,2026-08-07.1
+blaIMP-89,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-89,2026-08-07.1
+blaIMP-9,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-9,2026-08-07.1
+blaIMP-90,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-90,2026-08-07.1
+blaIMP-91,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-91,2026-08-07.1
+blaIMP-92,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-92,2026-08-07.1
+blaIMP-93,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-93,2026-08-07.1
+blaIMP-94,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-94,2026-08-07.1
+blaIMP-95,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-95,2026-08-07.1
+blaIMP-96,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-96,2026-08-07.1
+blaIMP-97,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-97,2026-08-07.1
+blaIMP-98,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-98,2026-08-07.1
+blaIMP-99,IMP,carbapenem,blaIMP,FAMILY_MEMBER,BETA-LACTAM,CARBAPENEM,subclass B1 metallo-beta-lactamase IMP-99,2026-08-07.1
+blaCTX-M,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_UNTYPED,BETA-LACTAM,CEPHALOSPORIN,CTX-M family extended-spectrum class A beta-lactamase,2026-08-07.1
+blaCTX-M-1,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-1,2026-08-07.1
+blaCTX-M-10,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-10,2026-08-07.1
+blaCTX-M-100,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-100,2026-08-07.1
+blaCTX-M-101,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-101,2026-08-07.1
+blaCTX-M-102,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-102,2026-08-07.1
+blaCTX-M-103,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-103,2026-08-07.1
+blaCTX-M-104,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-104,2026-08-07.1
+blaCTX-M-105,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-105,2026-08-07.1
+blaCTX-M-110,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-110,2026-08-07.1
+blaCTX-M-111,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-111,2026-08-07.1
+blaCTX-M-112,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-112,2026-08-07.1
+blaCTX-M-113,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-113,2026-08-07.1
+blaCTX-M-114,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-114,2026-08-07.1
+blaCTX-M-115,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-115,2026-08-07.1
+blaCTX-M-116,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-116,2026-08-07.1
+blaCTX-M-117,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-117,2026-08-07.1
+blaCTX-M-12,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-12,2026-08-07.1
+blaCTX-M-121,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-121,2026-08-07.1
+blaCTX-M-122,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-122,2026-08-07.1
+blaCTX-M-123,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-123,2026-08-07.1
+blaCTX-M-124,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-124,2026-08-07.1
+blaCTX-M-125,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-125,2026-08-07.1
+blaCTX-M-126,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-126,2026-08-07.1
+blaCTX-M-127,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-127,2026-08-07.1
+blaCTX-M-129,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-129,2026-08-07.1
+blaCTX-M-13,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-13,2026-08-07.1
+blaCTX-M-130,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-130,2026-08-07.1
+blaCTX-M-131,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-131,2026-08-07.1
+blaCTX-M-132,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-132,2026-08-07.1
+blaCTX-M-134,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-134,2026-08-07.1
+blaCTX-M-136,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-136,2026-08-07.1
+blaCTX-M-137,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-137,2026-08-07.1
+blaCTX-M-138,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-138,2026-08-07.1
+blaCTX-M-139,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-139,2026-08-07.1
+blaCTX-M-14,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-14,2026-08-07.1
+blaCTX-M-140,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-140,2026-08-07.1
+blaCTX-M-141,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-141,2026-08-07.1
+blaCTX-M-142,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-142,2026-08-07.1
+blaCTX-M-143,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-143,2026-08-07.1
+blaCTX-M-144,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-144,2026-08-07.1
+blaCTX-M-146,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-146,2026-08-07.1
+blaCTX-M-147,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-147,2026-08-07.1
+blaCTX-M-148,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-148,2026-08-07.1
+blaCTX-M-15,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-15,2026-08-07.1
+blaCTX-M-150,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-150,2026-08-07.1
+blaCTX-M-152,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-152,2026-08-07.1
+blaCTX-M-153,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-153,2026-08-07.1
+blaCTX-M-154,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-154,2026-08-07.1
+blaCTX-M-155,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-155,2026-08-07.1
+blaCTX-M-156,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-156,2026-08-07.1
+blaCTX-M-157,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-157,2026-08-07.1
+blaCTX-M-158,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-158,2026-08-07.1
+blaCTX-M-159,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-159,2026-08-07.1
+blaCTX-M-16,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-16,2026-08-07.1
+blaCTX-M-160,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-160,2026-08-07.1
+blaCTX-M-161,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-161,2026-08-07.1
+blaCTX-M-162,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-162,2026-08-07.1
+blaCTX-M-163,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-163,2026-08-07.1
+blaCTX-M-164,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-164,2026-08-07.1
+blaCTX-M-165,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-165,2026-08-07.1
+blaCTX-M-166,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-166,2026-08-07.1
+blaCTX-M-167,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-167,2026-08-07.1
+blaCTX-M-168,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-168,2026-08-07.1
+blaCTX-M-169,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-169,2026-08-07.1
+blaCTX-M-17,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-17,2026-08-07.1
+blaCTX-M-170,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-170,2026-08-07.1
+blaCTX-M-171,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-171,2026-08-07.1
+blaCTX-M-172,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-172,2026-08-07.1
+blaCTX-M-173,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-173,2026-08-07.1
+blaCTX-M-174,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-174,2026-08-07.1
+blaCTX-M-175,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-175,2026-08-07.1
+blaCTX-M-176,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-176,2026-08-07.1
+blaCTX-M-177,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-177,2026-08-07.1
+blaCTX-M-178,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,BETA-LACTAM,inhibitor-resistant class A beta-lactamase CTX-M-178,2026-08-07.1
+blaCTX-M-179,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-179,2026-08-07.1
+blaCTX-M-180,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-180,2026-08-07.1
+blaCTX-M-181,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-181,2026-08-07.1
+blaCTX-M-182,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-182,2026-08-07.1
+blaCTX-M-183,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-183,2026-08-07.1
+blaCTX-M-184,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-184,2026-08-07.1
+blaCTX-M-185,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-185,2026-08-07.1
+blaCTX-M-186,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-186,2026-08-07.1
+blaCTX-M-187,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-187,2026-08-07.1
+blaCTX-M-188,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-188,2026-08-07.1
+blaCTX-M-189,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-189,2026-08-07.1
+blaCTX-M-19,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-19,2026-08-07.1
+blaCTX-M-190,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase CTX-M-190,2026-08-07.1
+blaCTX-M-191,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-191,2026-08-07.1
+blaCTX-M-192,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-192,2026-08-07.1
+blaCTX-M-193,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-193,2026-08-07.1
+blaCTX-M-194,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-194,2026-08-07.1
+blaCTX-M-195,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-195,2026-08-07.1
+blaCTX-M-196,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-196,2026-08-07.1
+blaCTX-M-197,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-197,2026-08-07.1
+blaCTX-M-198,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-198,2026-08-07.1
+blaCTX-M-199,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase CTX-M-199,2026-08-07.1
+blaCTX-M-2,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-2,2026-08-07.1
+blaCTX-M-20,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-20,2026-08-07.1
+blaCTX-M-200,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-200,2026-08-07.1
+blaCTX-M-201,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-201,2026-08-07.1
+blaCTX-M-202,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-202,2026-08-07.1
+blaCTX-M-203,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-203,2026-08-07.1
+blaCTX-M-204,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-204,2026-08-07.1
+blaCTX-M-205,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-205,2026-08-07.1
+blaCTX-M-206,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-206,2026-08-07.1
+blaCTX-M-207,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-207,2026-08-07.1
+blaCTX-M-208,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-208,2026-08-07.1
+blaCTX-M-209,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-209,2026-08-07.1
+blaCTX-M-21,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-21,2026-08-07.1
+blaCTX-M-210,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-210,2026-08-07.1
+blaCTX-M-211,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-211,2026-08-07.1
+blaCTX-M-212,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-212,2026-08-07.1
+blaCTX-M-213,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-213,2026-08-07.1
+blaCTX-M-214,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-214,2026-08-07.1
+blaCTX-M-215,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-215,2026-08-07.1
+blaCTX-M-216,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-216,2026-08-07.1
+blaCTX-M-217,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-217,2026-08-07.1
+blaCTX-M-218,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-218,2026-08-07.1
+blaCTX-M-219,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase CTX-M-219,2026-08-07.1
+blaCTX-M-22,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-22,2026-08-07.1
+blaCTX-M-220,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-220,2026-08-07.1
+blaCTX-M-221,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-221,2026-08-07.1
+blaCTX-M-222,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-222,2026-08-07.1
+blaCTX-M-223,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-223,2026-08-07.1
+blaCTX-M-224,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-224,2026-08-07.1
+blaCTX-M-225,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-225,2026-08-07.1
+blaCTX-M-226,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-226,2026-08-07.1
+blaCTX-M-227,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-227,2026-08-07.1
+blaCTX-M-228,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-228,2026-08-07.1
+blaCTX-M-229,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-229,2026-08-07.1
+blaCTX-M-23,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-23,2026-08-07.1
+blaCTX-M-230,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-230,2026-08-07.1
+blaCTX-M-231,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-231,2026-08-07.1
+blaCTX-M-232,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-232,2026-08-07.1
+blaCTX-M-233,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-233,2026-08-07.1
+blaCTX-M-234,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-234,2026-08-07.1
+blaCTX-M-235,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-235,2026-08-07.1
+blaCTX-M-236,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-236,2026-08-07.1
+blaCTX-M-237,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-237,2026-08-07.1
+blaCTX-M-238,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-238,2026-08-07.1
+blaCTX-M-239,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-239,2026-08-07.1
+blaCTX-M-24,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-24,2026-08-07.1
+blaCTX-M-240,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-240,2026-08-07.1
+blaCTX-M-241,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-241,2026-08-07.1
+blaCTX-M-242,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-242,2026-08-07.1
+blaCTX-M-243,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-243,2026-08-07.1
+blaCTX-M-244,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-244,2026-08-07.1
+blaCTX-M-245,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-245,2026-08-07.1
+blaCTX-M-246,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-246,2026-08-07.1
+blaCTX-M-247,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-247,2026-08-07.1
+blaCTX-M-248,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-248,2026-08-07.1
+blaCTX-M-249,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-249,2026-08-07.1
+blaCTX-M-25,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-25,2026-08-07.1
+blaCTX-M-251,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-251,2026-08-07.1
+blaCTX-M-252,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-252,2026-08-07.1
+blaCTX-M-253,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-253,2026-08-07.1
+blaCTX-M-254,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-254,2026-08-07.1
+blaCTX-M-255,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,BETA-LACTAM,inhibitor-resistant class A beta-lactamase CTX-M-255,2026-08-07.1
+blaCTX-M-256,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-256,2026-08-07.1
+blaCTX-M-257,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-257,2026-08-07.1
+blaCTX-M-258,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-258,2026-08-07.1
+blaCTX-M-259,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-259,2026-08-07.1
+blaCTX-M-26,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-26,2026-08-07.1
+blaCTX-M-260,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-260,2026-08-07.1
+blaCTX-M-261,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-261,2026-08-07.1
+blaCTX-M-262,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-262,2026-08-07.1
+blaCTX-M-263,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-263,2026-08-07.1
+blaCTX-M-264,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-264,2026-08-07.1
+blaCTX-M-265,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-265,2026-08-07.1
+blaCTX-M-266,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-266,2026-08-07.1
+blaCTX-M-267,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-267,2026-08-07.1
+blaCTX-M-268,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-268,2026-08-07.1
+blaCTX-M-269,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-269,2026-08-07.1
+blaCTX-M-27,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-27,2026-08-07.1
+blaCTX-M-270,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-270,2026-08-07.1
+blaCTX-M-271,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-271,2026-08-07.1
+blaCTX-M-272,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-272,2026-08-07.1
+blaCTX-M-273,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-273,2026-08-07.1
+blaCTX-M-274,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-274,2026-08-07.1
+blaCTX-M-275,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-275,2026-08-07.1
+blaCTX-M-276,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-276,2026-08-07.1
+blaCTX-M-277,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-277,2026-08-07.1
+blaCTX-M-278,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-278,2026-08-07.1
+blaCTX-M-279,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-279,2026-08-07.1
+blaCTX-M-28,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-28,2026-08-07.1
+blaCTX-M-280,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-280,2026-08-07.1
+blaCTX-M-281,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-281,2026-08-07.1
+blaCTX-M-282,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,inhibitor-resistant extended-spectrum class A beta-lactamase CTX-M-282,2026-08-07.1
+blaCTX-M-283,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-283,2026-08-07.1
+blaCTX-M-285,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-285,2026-08-07.1
+blaCTX-M-29,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-29,2026-08-07.1
+blaCTX-M-3,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-3,2026-08-07.1
+blaCTX-M-30,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-30,2026-08-07.1
+blaCTX-M-31,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-31,2026-08-07.1
+blaCTX-M-32,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-32,2026-08-07.1
+blaCTX-M-33,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-33,2026-08-07.1
+blaCTX-M-34,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-34,2026-08-07.1
+blaCTX-M-35,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-35,2026-08-07.1
+blaCTX-M-36,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-36,2026-08-07.1
+blaCTX-M-37,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-37,2026-08-07.1
+blaCTX-M-38,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-38,2026-08-07.1
+blaCTX-M-39,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-39,2026-08-07.1
+blaCTX-M-4,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-4,2026-08-07.1
+blaCTX-M-40,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-40,2026-08-07.1
+blaCTX-M-41,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-41,2026-08-07.1
+blaCTX-M-42,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-42,2026-08-07.1
+blaCTX-M-43,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-43,2026-08-07.1
+blaCTX-M-44,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-44,2026-08-07.1
+blaCTX-M-46,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-46,2026-08-07.1
+blaCTX-M-47,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-47,2026-08-07.1
+blaCTX-M-48,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-48,2026-08-07.1
+blaCTX-M-49,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-49,2026-08-07.1
+blaCTX-M-5,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-5,2026-08-07.1
+blaCTX-M-50,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-50,2026-08-07.1
+blaCTX-M-51,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-51,2026-08-07.1
+blaCTX-M-52,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-52,2026-08-07.1
+blaCTX-M-53,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-53,2026-08-07.1
+blaCTX-M-54,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-54,2026-08-07.1
+blaCTX-M-55,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-55,2026-08-07.1
+blaCTX-M-56,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-56,2026-08-07.1
+blaCTX-M-58,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-58,2026-08-07.1
+blaCTX-M-59,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-59,2026-08-07.1
+blaCTX-M-6,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-6,2026-08-07.1
+blaCTX-M-60,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-60,2026-08-07.1
+blaCTX-M-61,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-61,2026-08-07.1
+blaCTX-M-62,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-62,2026-08-07.1
+blaCTX-M-63,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-63,2026-08-07.1
+blaCTX-M-64,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-64,2026-08-07.1
+blaCTX-M-65,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-65,2026-08-07.1
+blaCTX-M-66,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-66,2026-08-07.1
+blaCTX-M-67,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-67,2026-08-07.1
+blaCTX-M-68,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-68,2026-08-07.1
+blaCTX-M-69,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-69,2026-08-07.1
+blaCTX-M-7,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-7,2026-08-07.1
+blaCTX-M-70,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-70,2026-08-07.1
+blaCTX-M-71,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-71,2026-08-07.1
+blaCTX-M-72,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-72,2026-08-07.1
+blaCTX-M-73,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-73,2026-08-07.1
+blaCTX-M-74,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-74,2026-08-07.1
+blaCTX-M-75,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-75,2026-08-07.1
+blaCTX-M-76,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-76,2026-08-07.1
+blaCTX-M-77,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-77,2026-08-07.1
+blaCTX-M-78,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-78,2026-08-07.1
+blaCTX-M-79,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-79,2026-08-07.1
+blaCTX-M-8,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-8,2026-08-07.1
+blaCTX-M-80,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-80,2026-08-07.1
+blaCTX-M-81,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-81,2026-08-07.1
+blaCTX-M-82,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-82,2026-08-07.1
+blaCTX-M-83,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-83,2026-08-07.1
+blaCTX-M-84,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-84,2026-08-07.1
+blaCTX-M-85,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-85,2026-08-07.1
+blaCTX-M-86,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-86,2026-08-07.1
+blaCTX-M-87,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-87,2026-08-07.1
+blaCTX-M-88,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-88,2026-08-07.1
+blaCTX-M-89,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-89,2026-08-07.1
+blaCTX-M-9,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-9,2026-08-07.1
+blaCTX-M-90,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-90,2026-08-07.1
+blaCTX-M-91,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-91,2026-08-07.1
+blaCTX-M-92,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-92,2026-08-07.1
+blaCTX-M-93,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-93,2026-08-07.1
+blaCTX-M-94,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-94,2026-08-07.1
+blaCTX-M-95,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-95,2026-08-07.1
+blaCTX-M-96,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-96,2026-08-07.1
+blaCTX-M-97,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-97,2026-08-07.1
+blaCTX-M-98,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-98,2026-08-07.1
+blaCTX-M-99,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase CTX-M-99,2026-08-07.1
+blaKLUC,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,KLUC family extended-spectrum class A beta-lactamase,2026-08-07.1
+blaKLUC-1,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase KLUC-1,2026-08-07.1
+blaKLUC-2,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase KLUC-2,2026-08-07.1
+blaKLUC-3,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase KLUC-3,2026-08-07.1
+blaKLUC-4,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase KLUC-4,2026-08-07.1
+blaKLUC-5,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,BETA-LACTAM,broad-spectrum class A beta-lactamase KLUC-5,2026-08-07.1
+blaKLUC-6,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,extended-spectrum class A beta-lactamase KLUC-6,2026-08-07.1
+blaKLUG-1,CTX-M,extended-spectrum cephalosporin,blaCTX-M,FAMILY_MEMBER,BETA-LACTAM,CEPHALOSPORIN,CTX-M family extended-spectrum class A beta-lactamase KLUG-1,2026-08-07.1

@@ -1,0 +1,38 @@
+{
+ "upload_type": "dataset",
+ "creators": [
+  {
+   "name": "Abdulwahab, Fatima",
+   "orcid": "0009-0008-2298-8386",
+   "affiliation": "Independent Researcher, Dallas, Texas, USA"
+  }
+ ],
+ "license": "cc-by-4.0",
+ "version": "1.0.0",
+ "access_right": "open",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/FatimaAbdulwahab/us-rapid-panel-amr-concordance",
+   "relation": "isSupplementedBy",
+   "resource_type": "software"
+  },
+  {
+   "identifier": "https://fatimaabdulwahab.github.io/us-rapid-panel-amr-concordance/",
+   "relation": "isDocumentedBy"
+  }
+ ],
+ "keywords": [
+  "antimicrobial resistance",
+  "rapid diagnostics",
+  "blood culture identification panel",
+  "AMRFinderPlus",
+  "genotype-phenotype concordance",
+  "NCBI Pathogen Detection",
+  "carbapenemase",
+  "mecA",
+  "vanA",
+  "CTX-M"
+ ],
+ "title": "U.S. Rapid Panel Target Discordance Case Collection",
+ "description": "<p>U.S. human clinical isolates from NCBI Pathogen Detection whose rapid-panel-target gene result (from AMRFinderPlus) and laboratory susceptibility result disagree, one row per isolate and target, with the measured values, the non-panel resistance mechanisms present, and the most likely cause assigned by documented rules (for example non-panel ESBL or AmpC, chromosomal AmpC organism, panel carbapenemase present, value within one dilution of the breakpoint, submitter interpretation differs, unexplained). Each row links to its NCBI BioSample record. Companion to the U.S. Rapid Panel Resistance Marker Concordance Benchmark.</p>"
+}
